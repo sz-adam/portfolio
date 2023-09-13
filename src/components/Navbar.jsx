@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react'
 import { LanguageContext } from '../context/LanguageContext'
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import AnimatedMotion from '../framerMotion/AnimatedMotion';
 import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </div>
 
                 <Routes>
-                    <Route path="/" element={<About />} />
+                    <Route path="/" exact element={<About />} />
                     <Route path="/skills" element={<Skills />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                 </Routes>
