@@ -2,7 +2,7 @@
     "code": "en",
     "navbar-contact": "Contact",
     "navbar-home": "About",
-    "navbar-portfolio": "Portfolio",
+    "navbar-portfolio": "Projects",
     "navbar-skills": "Skills",
 
     "about-name":"Adam Szabo",
@@ -15,7 +15,7 @@
     "home-junior": "and I am a Junior FrontEnd developer",
     "home-about": "The world of programming has always fascinated me, and in order to further my professional development, I have not only learned in a self-taught manner but also enrolled in a bootcamp in 2022. Since then, I have managed to find that particular area which seems especially exciting and full of challenges to me. I enjoy exploring new technologies and I am always open to new opportunities that offer further growth for me. I strive to continuously expand and deepen my professional knowledge, as well as improve my skills, in order to work even more effectively and efficiently in the field.",
     "home-cv":"Download the CV",
-    "home-portfolio":"Portfolio",
+    "home-portfolio":"Projects",
 
     "portfolio-memorygame":"This is a simple memory game. It randomly selects six out of eighteen images for the game.",
     "portfolio-quiz":"This is a Quiz game using opentdb api. At the end of the questions, it displays the correct and incorrect answers.",
