@@ -1,0 +1,43 @@
+{ 
+    "code":"hu",
+    "navbar-contact":"Kapcsolat",
+    "navbar-home":"Rólam",
+    "navbar-portfolio":"Munkáim",
+    "navbar-skills":"Készségek",
+
+    "about-name":"Szabó Ádám",
+    "about-title":"Junior Frontend fejlesztő",
+
+    "flag-language":"Nyelv",
+    "flag-theme":"Téma",
+
+    "home-name":"Szia Szabó Ádámnak hívnak",
+    "home-junior":" és egy Junior FrontEnd fejlesztő vagyok",
+    "home-about":"A programozás világa mindig is vonzott, és szakmai fejlődésem érdekében nemcsak autodidakta módon tanultam, hanem 2022-ben beiratkoztam egy bootcampre is. Azóta sikerült megtalálnom azt a területet, amely különösen izgalmasnak és kihívásokkal telinek tűnik számomra. Szeretem az új technológiákat, és mindig nyitott vagyok az újabb lehetőségekre, melyek további fejlődést jelentenek számomra. Azon fáradozom, hogy folyamatosan bővítsem és mélyítsem szakmai tudásomat, valamint fejlesszem a készségeimet, hogy még eredményesebben és hatékonyabban tudjak dolgozni a területen.",
+    "home-cv":"Töltsd le a CV-t",
+    "home-portfolio":"Munkáim",
+
+    "portfolio-memorygame":"Ez egy egyszerű memória játék. 18 képből választ véletlenszerűen hat darabot a játékhoz.",
+    "portfolio-quiz":"Ez egy Quiz játék opentdb api használatával. A kérdések végén a helyes és helytelen válaszokat megjeleníti.",
+    "portfolio-movie":"Filmeket/sorozatokat lehet keresni az omdb api használatával. Kedvencek közé lehet menteni. Modal ablakban több információt jelenít meg.",
+    "portfolio-angularTodo": "Ez egy Angular alapú TODO-List amihez PrimeNG-t használtam.",
+    "portfolio-angularPokemon": "Ez egy pokemon alkalmazás, 20 db pokemont listáz ki, a típusaira külön lehet szűrni és egy felugró ablak segítségével még több adatot jelenít meg az adott pokemonról.",
+    "portfolio-nativeCrypto":"Egy Androidos Crypto alkalmazás , üdzölőképernyővel , crypto oldallal ami Api használatával történik . Kedvencekhez lehet adni , AsyncStorage-t használ. Plusz egy oldal ahol a cryptokról több indormáció olvasható ",
+    "portfolio-title":"Nézd meg a munkáimat.",
+
+    "portfolio-memorygame-name":"Memory Game(react)",
+    "portfolio-quiz-name":"Quiz(react)",
+    "portfolio-movie-name":"Movie(react)",
+    "portfolio-angularTodo-name":"Todo list(angular)",
+    "portfolio-angularPokemon-name":"Pokemon(angular)",
+    "portfolio-nativeCrypto-name":"Crypto(react native)",
+    
+    "portfolio-title-name":"portfolio-title-name",
+
+    "skills-title":"Ezeket a technológiákat ismerem.",
+
+    "loading-loading":"Betöltés"
+
+    
+
+}

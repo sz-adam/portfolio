@@ -1,0 +1,37 @@
+{
+    "code": "de",
+    "navbar-contact": "Kontakt",
+    "navbar-home": "Über mich",
+    "navbar-portfolio": "Portfolio",
+    "navbar-skills": "Fähigkeiten",
+
+    "about-name":"Adam Szabo",
+    "about-title":"Junior Frontend-Entwickler",
+
+    "flag-language":"Sprache",
+    "flag-theme":"Thema",
+
+    "home-name": "Hallo, mein name ist Adam Szabo",
+    "home-junior": " und ich bin ein Junior Frontend-Developer",
+    "home-about": "Die Welt des Programmierens hat mich schon immer fasziniert, und um meine berufliche Entwicklung voranzutreiben, habe ich nicht nur autodidaktisch gelernt, sondern mich auch 2022 für ein Bootcamp eingeschrieben. Seitdem habe ich mein Interessengebiet gefunden, das für mich besonders spannend und herausfordernd erscheint. Ich liebe neue Technologien und bin immer offen für weitere Möglichkeiten, die meine Weiterentwicklung vorantreiben. Ich bemühe mich ständig, mein Fachwissen zu erweitern und zu vertiefen sowie meine Fähigkeiten zu verbessern, um noch erfolgreicher und effizienter in diesem Bereich arbeiten zu können.",
+    "home-cv": "Lade meinen Lebenslauf herunter",
+    "home-portfolio": "Meine Arbeiten",
+    "portfolio-memorygame": "Dies ist ein einfaches Memory-Spiel. Es wählt zufällig sechs von 18 Bildern für das Spiel aus.",
+    "portfolio-quiz": "Dies ist ein Quiz-Spiel mit der Verwendung der opentdb API. Am Ende der Fragen werden die richtigen und falschen Antworten angezeigt.",
+    "portfolio-movie":"Filme/Serien können mit Hilfe der OMDB-API gesucht werden. Sie können zu Favoriten hinzugefügt werden. Weitere Informationen werden in einem Modal-Fenster angezeigt.",
+    "portfolio-angularTodo": "Dies ist eine Angular-basierte TODO-Liste, für die ich PrimeNG verwendet habe.",
+    "portfolio-angularPokemon": "Dies ist eine Pokémon-Anwendung, die 20 Pokémon auflistet. Sie können nach ihren Typen filtern und durch ein Popup-Fenster weitere Informationen zu einem bestimmten Pokémon anzeigen.",
+    "portfolio-nativeCrypto":"Eine Android-Krypto-App mit einem Begrüßungsbildschirm, einer Kryptoseite, die APIs verwendet. Benutzer können Favoriten hinzufügen und dabei AsyncStorage nutzen. Zusätzlich gibt es eine Seite, auf der mehr Informationen über Kryptowährungen gelesen werden können. ",
+    
+    "portfolio-memorygame-name":"Memory Game(react)",
+    "portfolio-quiz-name":"Quiz(react)",
+    "portfolio-movie-name":"Movie(react)",
+    "portfolio-angularTodo-name":"Todo list(angular)",
+    "portfolio-angularPokemon-name":"Pokemon(angular)",
+    "portfolio-nativeCrypto-name":"Crypto(react native)",
+
+    "portfolio-title": "Sieh dir meine Arbeiten an.",
+    "skills-title": "Diese Technologien beherrsche ich.",
+   
+    "loading-loading": "Laden"
+}

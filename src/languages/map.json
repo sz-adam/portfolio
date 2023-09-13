@@ -1,0 +1,39 @@
+{
+    "code": "code",
+    "navbar-contact":"navbar-contact",
+    "navbar-home":"navbar-home",
+    "navbar-portfolio":"navbar-portfolio",
+    "navbar-skills":"navbar-skills",
+
+    "about-name":"about-name",
+    "about-title":"about-title",
+
+    "flag-language":"flag-language",
+    "flag-theme":"flag-theme",
+
+    "home-name":"home-name",
+    "home-junior":"home-junior",
+    "home-about":"home-about",
+    "home-cv":"home-cv",
+    "home-portfolio":"home-portfolio",
+
+    "portfolio-memorygame":"portfolio-memorygame",
+    "portfolio-quiz":"portfolio-quiz",
+    "portfolio-movie":"portfolio-movie",
+    "portfolio-angularTodo":"portfolio-angularTodo",
+    "portfolio-angularPokemon":  "portfolio-angularPokemon",
+    "portfolio-nativeCrypto":"portfolio-nativeCrypto",
+    "portfolio-title":"portfolio-title",
+
+    "portfolio-memorygame-name":"portfolio-memorygame-name",
+    "portfolio-quiz-name":"portfolio-quiz-name",
+    "portfolio-movie-name":"portfolio-movie-name",
+    "portfolio-angularTodo-name":"portfolio-angularTodo-name",
+    "portfolio-angularPokemon-name":  "portfolio-angularPokemon-name",
+    "portfolio-nativeCrypto-name":"ortfolio-nativeCrypto-name",
+
+    "skills-title": "skills-title",
+
+    "loading-loading":"loading-loading"
+
+}
