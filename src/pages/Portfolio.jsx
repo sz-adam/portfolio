@@ -91,7 +91,7 @@ const Portfolio = () => {
           <div style={{ boxShadow: boxShadow }} className="mx-auto bg-slate-700 rounded-2xl m-2 w-full h-96">
             <img className="w-full h-3/4 object-cover rounded-t-2xl" src={portfolio.src} alt="Card image" />
             <div >
-              <h2 className="font-semibold text-xl mb-2 text-black text-center py-2">{portfolio.name}</h2>
+              <h2 className="font-semibold text-xl text-black text-center py-2">{portfolio.name}</h2>
             </div>
             <div className="flex justify-center">
               <button onClick={() => openModal(portfolio)} className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-2xl p-2 px-8 mx-2">

@@ -1,9 +1,4 @@
-
-
 import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-
-import Skills from './pages/Skills';
 import { useEffect, useState } from 'react'
 import { useContext } from 'react';
 import { ThemeContext } from './context/ThemeContext';
@@ -15,7 +10,6 @@ function App() {
   const { selectedTheme } = useContext(ThemeContext)
   const { bodybackgroundColor, textColor } = selectedTheme
   const [language, setLanguage] = useState(LanguageContextDefaults.value);
-
   const [initialized, setInitialized] = useState(false)
 
   useEffect(() => {
@@ -25,18 +19,15 @@ function App() {
   }, []);
 
   useEffect(() => {
-
     if (localStorage.getItem("language") !== null) {
       setLanguage(localStorage.getItem("language"));
     }
     setInitialized(true);
-  },[])
+  }, [])
 
   if (initialized) {
     localStorage.setItem("language", language);
   }
-
-
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
@@ -44,11 +35,8 @@ function App() {
         {loading ? (
           <Loading />
         ) : (
-          <>           
-            
-              <Home />
-            
-                 
+          <>
+            <Home />
           </>
         )}
       </div>
