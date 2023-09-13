@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9277876b.css",
+    "main.js": "/portfolio/static/js/main.34b17cf4.js",
+    "static/media/movie.png": "/portfolio/static/media/movie.11d16bf9e41a6b466911.png",
+    "static/media/me4.png": "/portfolio/static/media/me4.24559cc9c89c4c1b3596.png",
+    "static/media/pokemon.png": "/portfolio/static/media/pokemon.407d041c50d9021ee968.png",
+    "static/media/Önéletrajz.pdf": "/portfolio/static/media/Önéletrajz.4fdd4ba16d6adf1397c7.pdf",
+    "static/media/angular.png": "/portfolio/static/media/angular.2a94d7a4ed5d0938f132.png",
+    "static/media/memorygame.jpg": "/portfolio/static/media/memorygame.10ed648cc6086cc9dd07.jpg",
+    "static/media/crypto-home.jpg": "/portfolio/static/media/crypto-home.05de8315394c34a699c3.jpg",
+    "static/media/angular-todo.jpg": "/portfolio/static/media/angular-todo.8f1bbffe131e1bd6b733.jpg",
+    "static/media/scss.png": "/portfolio/static/media/scss.4f6d501b7b0af3eef7e2.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.c8790f181c3c3fc16f86.png",
+    "static/media/typescript.png": "/portfolio/static/media/typescript.52ea0bc40ba11d507e7d.png",
+    "static/media/react.png": "/portfolio/static/media/react.ac14d2f265d39f14fb97.png",
+    "static/media/css.png": "/portfolio/static/media/css.bc75ccc78e3bf74f8aed.png",
+    "static/media/quiz.png": "/portfolio/static/media/quiz.fe978194914046da05d6.png",
+    "static/media/html.png": "/portfolio/static/media/html.33745eadd572612bdf11.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.99e0b6fdb08924dd678c.png",
+    "index.html": "/portfolio/index.html",
+    "main.9277876b.css.map": "/portfolio/static/css/main.9277876b.css.map",
+    "main.34b17cf4.js.map": "/portfolio/static/js/main.34b17cf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9277876b.css",
+    "static/js/main.34b17cf4.js"
+  ]
+}
