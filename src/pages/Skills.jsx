@@ -79,7 +79,7 @@ const Skills = () => {
       </div>
       <div className="p-2 grid gap-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center ">
         {tech.map((skill) => (
-          <AnimatedMotion animationName="skillAnimation" key={skill.id}>
+          <AnimatedMotion animationName="portfolioAnimations" key={skill.id}>
             <AnimatedMotion animationName="ItemAnimation">
               <div className="flex flex-col items-center  p-3 rounded-[2rem] " style={{ boxShadow: boxShadow }}>
                 <img src={skill.src} alt={skill.title} className="w-[150px] h-[150px] object-contain mb-2" />
