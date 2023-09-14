@@ -1,13 +1,19 @@
-import Home from './pages/Home';
+import HomeInformation from "./components/HomeInformation"
+import Navbar from './components/Navbar';
 import { useEffect, useState } from 'react'
 import { useContext } from 'react';
 import { ThemeContext } from './context/ThemeContext';
 import Loading from './pages/Loading'
 import { LanguageContext, LanguageContextDefaults } from './context/LanguageContext';
+import { HashRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Skills from './pages/Skills';
 
 function App() {
   const [loading, setLoading] = useState(true);
   const { selectedTheme } = useContext(ThemeContext)
+  const { boxShadow } = selectedTheme;
   const { bodybackgroundColor, textColor } = selectedTheme
   const [language, setLanguage] = useState(LanguageContextDefaults.value);
   const [initialized, setInitialized] = useState(false)
@@ -35,14 +41,27 @@ function App() {
         {loading ? (
           <Loading />
         ) : (
-          <>
-            <Home />
-          </>
+          <Router>
+            <div className="w-full h-screen flex flex-col md:flex-row justify-around items-center max-md:h-full p-5">
+              {/* information */}
+              <div style={{ boxShadow: boxShadow }} className="w-[25%] h-[80%] rounded-2xl max-md:w-full max-md:h-full max-md:mb-10">
+                <HomeInformation />
+              </div>
+              {/* about */}
+              <div style={{ boxShadow: boxShadow }} className="w-[70%] h-[80%] max-md:h-full rounded-2xl overflow-auto max-md:w-full max-md:pt-10 scrollbar-thin scrollbar-thumb-teal-500">
+                <Navbar />
+                <Routes>
+                  <Route path="/" element={<About />} />
+                  <Route path="/skills" element={<Skills />} />
+                  <Route path="/portfolio" element={<Portfolio />} />
+                </Routes>
+              </div>
+            </div>
+          </Router>
         )}
       </div>
     </LanguageContext.Provider>
   );
-
 }
 
 export default App;
