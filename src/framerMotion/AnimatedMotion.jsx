@@ -39,10 +39,10 @@ const animations = {
     transition: { delay: 3, duration: 1 },
   },
   skillAnimation: {
-    initial: { opacity: 0, y: 150 },
+    initial: { opacity: 0, y: -100 },
     animate: { opacity: 1, y: 0 },
-    exit: { opacity: 0, y: -50 },
-    transition: { duration: 1 },
+    exit: { opacity: 0, y: 10 },
+    transition: { duration: 1, type: "spring", stiffness: 300 },
   },
   textAnimation: {
     initial: { opacity: 0, x: -150 },
@@ -59,10 +59,10 @@ const animations = {
     },
   },
   portfolioAnimations: {
-    initial: { opacity: 0, y: -50, scale: 0.8 },
-    animate: { opacity: 1, y: 0, scale: 1 },
-    exit: { opacity: 0, y: -50, scale: 0.8 },
-    transition: { duration: 1, ease: "easeOut" },
+     initial: { opacity: 0, scale: 0.8, },
+    animate: { opacity: 1, scale: 1, },
+    exit: { opacity: 0, scale: 0.8,  },
+    transition: { duration: 1.5 },
   },
 }
 
