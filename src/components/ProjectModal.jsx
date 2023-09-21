@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { FiGithub } from "react-icons/fi"
 import { AiOutlineEye } from "react-icons/ai"
 import { IoMdClose } from "react-icons/io"
+import { LanguageContext } from '../context/LanguageContext';
 
 const ProjectModal = ({ closeModal, portfolio }) => {
+    const { language } = useContext(LanguageContext);
+    const i18n = require('../utils/i18n');
 
     return (
         <div className="z-50 fixed inset-0 flex items-center justify-center p-5">
@@ -32,7 +35,7 @@ const ProjectModal = ({ closeModal, portfolio }) => {
                             <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-cyan-700 group-hover:translate-x-0 ease">
                                 <IoMdClose size={25} />
                             </span>
-                            <span >Close</span>
+                            <span >{i18n.text(language, i18n.MAP['modal-close'])}</span>
                         </button>
                     </div>
                 </div>
