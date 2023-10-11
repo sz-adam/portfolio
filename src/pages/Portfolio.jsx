@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import AnimatedMotion from '../framerMotion/AnimatedMotion';
+
 import memorygame from "../images/memorygame.jpg"
 import angularTodo from "../images/angular-todo.jpg"
 import angularpokemon from "../images/pokemon.png"
@@ -86,15 +86,13 @@ const Portfolio = () => {
 
   return (
     <div id="portfolio" >
-      <div className="text-center">
-        <AnimatedMotion animationName="textAnimation" >
-          <p className='text-3xl p-4'>{i18n.text(language, i18n.MAP['portfolio-title'])}</p>
-        </AnimatedMotion>
+      <div className="text-center">     
+          <p className='text-3xl p-4'>{i18n.text(language, i18n.MAP['portfolio-title'])}</p>      
       </div>
       <div className="w-full h-full p-5  grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         {portfolios.map((portfolio) => (
-          <AnimatedMotion animationName="portfolioAnimations" key={portfolio.id}>
-            <div style={{ boxShadow: boxShadow }} className="mx-auto bg-slate-700 rounded-2xl m-2 w-full h-96">
+   
+            <div style={{ boxShadow: boxShadow }}   key={portfolio.id} className="mx-auto bg-slate-700 rounded-2xl m-2 w-full h-96">
               <img className="w-full h-3/4 object-cover rounded-t-2xl" src={portfolio.src} alt="Card image" />
               <div >
                 <h2 className="font-semibold text-xl text-black text-center py-2">{portfolio.name}</h2>
@@ -106,7 +104,7 @@ const Portfolio = () => {
                 {isOpen && selectedProject && <ProjectModal closeModal={closeModal} portfolio={selectedProject} />}
               </div>
             </div>
-          </AnimatedMotion>
+       
         ))
         }
       </div >

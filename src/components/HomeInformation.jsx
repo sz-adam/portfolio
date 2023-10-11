@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import Me4 from '../images/me4.png';
 import { ThemeContext } from '../context/ThemeContext';
 import { LanguageContext } from '../context/LanguageContext';
-import AnimatedMotion from '../framerMotion/AnimatedMotion';
+
 import { AiOutlineMail } from "react-icons/ai"
 import { BsGithub } from "react-icons/bs"
 import { BsLinkedin } from "react-icons/bs"
@@ -24,7 +24,7 @@ const HomeInformation = () => {
   };
   return (
 
-    <AnimatedMotion animationName="homeImageAnimation">
+   <div >
       <div className="p-3">
         {/* modal ablak */}
         <button onClick={openModal}>  <FcSettings size={42} className="animate-spin " /></button>
@@ -68,7 +68,8 @@ const HomeInformation = () => {
         </div>
 
       </div>
-    </AnimatedMotion>
+      </div>
+
 
   )
 }
