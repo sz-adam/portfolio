@@ -15,7 +15,7 @@ const ThemeSelector = () => {
   return (
     <div className=" flex flex-row ">
       {themeOptions.map((option) => (
-        <div key={option.color} className="mx-5 cursor-pointer">
+        <div key={option.color} className="mx-6 cursor-pointer">
           <div
             className={option.className}
             onClick={() => {

@@ -15,17 +15,15 @@ const FlagThemeModal = ({ closeModal }) => {
         <button className="absolute top-0 right-0 p-2" onClick={closeModal}>
           <GrClose size={20} className='animate-bounce' />
         </button>
-        <div >
-          <div className="flex justify-between pb-2 ">
-            <p className="text-black">  {i18n.text(language, i18n.MAP['flag-language'])}</p>
-            <Flag />
-          </div>
-          <div className="flex justify-between pt-2">
-            <p className="text-black">{i18n.text(language, i18n.MAP['flag-theme'])}</p>
-            <MultiColor />
-          </div>
-
+        <div className="flex justify-between pb-2 ">
+          <p className="text-black">  {i18n.text(language, i18n.MAP['flag-language'])}</p>
+          <Flag />
         </div>
+        <div className="flex justify-between pt-2">
+          <p className="text-black">{i18n.text(language, i18n.MAP['flag-theme'])}</p>
+          <MultiColor />
+        </div>
+
       </div>
     </div>
   )

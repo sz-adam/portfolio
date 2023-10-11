@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { LanguageContext } from '../context/LanguageContext';
 import { Link, useLocation } from 'react-router-dom';
-
+import AnimatedMotion from '../framerMotion/AnimatedMotion';
 
 const Navbar = () => {
   const { language } = useContext(LanguageContext);
@@ -27,7 +27,7 @@ const Navbar = () => {
 
 
   return (
-   
+    <AnimatedMotion animationName="navbarAnimatio">
       <div className="flex justify-center p-5">
         <Link
           to="/"
@@ -51,7 +51,7 @@ const Navbar = () => {
           <span>{i18n.text(language, i18n.MAP['navbar-portfolio'])}</span>
         </Link>
       </div>
-  
+    </AnimatedMotion>
   );
 };
 
