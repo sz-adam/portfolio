@@ -15,20 +15,14 @@ const HomeInformation = () => {
   const { selectedTheme } = useContext(ThemeContext);
   const { boxShadow } = selectedTheme;
   const [isOpen, setIsOpen] = useState(false);
-  const openModal = () => {
-    setIsOpen(true);
-  };
 
-  const closeModal = () => {
-    setIsOpen(false);
-  };
   return (
 
     <AnimatedMotion animationName="homeImageAnimation">
       <div className="p-3">
         {/* modal ablak */}
-        <button onClick={openModal}>  <FcSettings size={42} className="animate-spin " /></button>
-        {isOpen && <FlagThemeModal closeModal={closeModal} />}
+        <button onClick={() => setIsOpen(true)}>  <FcSettings size={42} className="animate-spin " /></button>
+        {isOpen && <FlagThemeModal setIsOpen={setIsOpen} />}
       </div>
       <div className="flex flex-col " >
         <div className="flex justify-center items-center pt-2" >
