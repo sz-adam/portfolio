@@ -17,7 +17,7 @@ const i18n = require('../utils/i18n')
 const Skills = () => {
   const { selectedTheme } = useContext(ThemeContext)
   const { boxShadow } = selectedTheme
-  const { language, setLanguage } = useContext(LanguageContext)
+  const { language } = useContext(LanguageContext)
   const tech = [
     {
       id: 1,
@@ -69,8 +69,8 @@ const Skills = () => {
 
   return (
     <div id="skills" className="flex flex-col justify-center">
-      <div className='text-center text-3xl mb-8'>    
-      <AnimatedMotion animationName="textAnimation" >
+      <div className='text-center text-3xl mb-8'>
+        <AnimatedMotion animationName="textAnimation" >
           <p>{i18n.text(language, i18n.MAP['skills-title'])}</p>
         </AnimatedMotion>
       </div>

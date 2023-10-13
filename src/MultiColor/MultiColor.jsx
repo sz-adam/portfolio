@@ -1,9 +1,7 @@
 import React, { useContext, useState } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 
-
 const ThemeSelector = () => {
-
   const { changedColor } = useContext(ThemeContext);
 
   const themeOptions = [

@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const animations = {
   navbarAnimatio: {
@@ -68,7 +68,6 @@ const animations = {
 
 const AnimatedMotion = ({ animationName, children }) => {
   const animation = animations[animationName];
-
 
   return (
     <motion.div

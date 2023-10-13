@@ -1,9 +1,9 @@
 import { useContext } from 'react'
-
 import { LanguageContext } from '../context/LanguageContext'
 const i18n = require('../utils/i18n')
+
 export default function Loading(props) {
-    const { language, setLanguage } = useContext(LanguageContext)
+    const { language} = useContext(LanguageContext)
     return (
         <div className="flex flex-col justify-center items-center h-screen">
             <div className="relative w-24 h-24 animate-spin rounded-full bg-gradient-to-r from-purple-400 via-blue-500 to-red-400 ">
