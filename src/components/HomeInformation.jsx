@@ -44,19 +44,19 @@ const HomeInformation = () => {
         {/**link */}
         <div>
           <div className="p-3 ">
-            <a href="https://github.com/sz-adam?tab=repositories" className={"flex items-center text-center"}>
+            <a href="https://github.com/sz-adam?tab=repositories" className="flex items-center text-center">
               <BsGithub className="text-xl animate-bounce" />
               <span className="ml-4">Github</span>
             </a>
           </div>
           <div className="p-3">
-            <a href="mailto:szaboadam255@gmail.com" className={"flex items-center text-center"}>
+            <a href="mailto:szaboadam255@gmail.com" className="flex items-center text-center">
               <AiOutlineMail className="text-xl animate-bounce" />
               <span className="ml-4 ">szaboadam255@gmail.com</span>
             </a>
           </div>
           <div className="p-3" >
-            <a href="https://www.linkedin.com/in/%C3%A1d%C3%A1m-szab%C3%B3-06733527a/" className={"flex  items-center text-center"}>
+            <a href="https://www.linkedin.com/in/%C3%A1d%C3%A1m-szab%C3%B3-06733527a/" className="flex  items-center text-center">
               <BsLinkedin className="text-xl animate-bounce" />
               <span className="ml-4">linkedin</span>
             </a>
