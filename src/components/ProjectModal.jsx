@@ -3,15 +3,18 @@ import { FiGithub } from "react-icons/fi"
 import { AiOutlineEye } from "react-icons/ai"
 import { IoMdClose } from "react-icons/io"
 import { LanguageContext } from '../context/LanguageContext';
+import AnimatedMotion from '../framerMotion/AnimatedMotion';
 
 const ProjectModal = ({ closeModal, portfolio }) => {
     const { language } = useContext(LanguageContext);
     const i18n = require('../utils/i18n');
 
     return (
-        <div className="z-50 fixed inset-0 flex items-center justify-center p-5">
-            <div className=" absolute inset-0 bg-slate-900 opacity-20"></div>
-            <div className="relative bg-slate-700 border w-1/2 h-1/2 max-sm:w-full rounded-2xl max-md:h-full flex text-center max-md:flex-col">
+        <div className="z-50 fixed inset-0 flex items-center justify-center p-5 ">
+            <div className="absolute inset-0 bg-slate-900 opacity-20"></div>
+            <AnimatedMotion animationName="modalAnimations"
+                className="relative bg-slate-700 border w-1/2 h-1/2 max-sm:w-full rounded-2xl max-md:h-full flex text-center max-md:flex-col"
+            >
                 <div className="w-1/2 max-md:w-full max-md:h-[40%] ">
                     <img className="w-full h-full object-cover max-md:rounded-t-2xl md:rounded-l-2xl" src={portfolio.src} alt={portfolio.name} />
                 </div>
@@ -39,11 +42,10 @@ const ProjectModal = ({ closeModal, portfolio }) => {
                         </button>
                     </div>
                 </div>
-            </div>
+            </AnimatedMotion>
         </div>
+    );
+};
 
-
-    )
-}
 
 export default ProjectModal

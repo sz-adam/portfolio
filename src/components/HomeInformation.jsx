@@ -8,6 +8,7 @@ import { BsGithub } from "react-icons/bs"
 import { BsLinkedin } from "react-icons/bs"
 import FlagThemeModal from '../components/FlagThemeModal';
 import { FcSettings } from "react-icons/fc"
+import { AnimatePresence } from 'framer-motion';
 const i18n = require('../utils/i18n');
 
 const HomeInformation = () => {
@@ -22,7 +23,9 @@ const HomeInformation = () => {
       <div className="p-3">
         {/* modal ablak */}
         <button onClick={() => setIsOpen(true)}>  <FcSettings size={42} className="animate-spin " /></button>
+        <AnimatePresence>
         {isOpen && <FlagThemeModal setIsOpen={setIsOpen} />}
+        </AnimatePresence>
       </div>
       <div className="flex flex-col " >
         <div className="flex justify-center items-center pt-2" >

@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import AnimatedMotion from '../framerMotion/AnimatedMotion';
+import { AnimatePresence } from 'framer-motion';
 import memorygame from "../images/memorygame.jpg"
 import angularTodo from "../images/angular-todo.jpg"
 import angularpokemon from "../images/pokemon.png"
@@ -103,7 +104,9 @@ const Portfolio = () => {
                 <button onClick={() => openModal(portfolio)} className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-2xl p-2 px-8 mx-2">
                   <AiOutlineEye size={26} />
                 </button>
+                <AnimatePresence>
                 {isOpen && selectedProject && <ProjectModal closeModal={closeModal} portfolio={selectedProject} />}
+                </AnimatePresence>
               </div>
             </div>
           </AnimatedMotion>
