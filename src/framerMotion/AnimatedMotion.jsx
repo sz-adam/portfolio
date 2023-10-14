@@ -55,10 +55,16 @@ const animations = {
     animate: { opacity: 1, scale: 1, },
     exit: { opacity: 0, scale: 0.8, },
     transition: { duration: 1.5 },
-  }, 
+  },
+  modalAnimations:{
+    initial:{ opacity: 0, y: -450, scale: 0 },
+    animate:{ opacity: 1, y: 0, scale: 1 },
+    exit:{ opacity: 0, y: 450, scale: 0 },
+    transition:{ duration: 0.6 },
+  }
 }
 
-const AnimatedMotion = ({ animationName, children }) => {
+const AnimatedMotion = ({ animationName, children,className }) => {
   const animation = animations[animationName];
 
   return (
@@ -68,7 +74,8 @@ const AnimatedMotion = ({ animationName, children }) => {
       exit={animation.exit}
       transition={animation.transition}
       variants={animation.variants}
-      whileHover={animation.whileHover}    
+      whileHover={animation.whileHover}
+      className={className}
     >
       {children}
     </motion.div>
