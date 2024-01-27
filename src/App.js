@@ -42,13 +42,13 @@ function App() {
           <Loading />
         ) : (
           <Router>
-            <div className="w-full h-screen flex flex-col md:flex-row justify-around items-center max-md:h-full p-5">
+            <div className="w-full h-screen flex flex-col lg:flex-row justify-around items-center max-lg:h-full p-5">
               {/* information */}
-              <div style={{ boxShadow: boxShadow }} className="w-[25%] h-[80%] rounded-2xl max-md:w-full max-md:h-full max-md:mb-10">
+              <div style={{ boxShadow: boxShadow }} className="w-[25%] h-[80%] rounded-2xl max-lg:w-full max-lg:h-full max-lg:mb-10">
                 <HomeInformation />
               </div>
               {/* about */}
-              <div style={{ boxShadow: boxShadow }} className="w-[70%] h-[80%] max-md:h-full rounded-2xl overflow-auto max-md:w-full max-md:pt-10 scrollbar-thin scrollbar-thumb-teal-500">
+              <div style={{ boxShadow: boxShadow }} className="w-[70%] h-[80%] max-lg:h-full rounded-2xl overflow-auto max-lg:w-full max-lg:pt-10 scrollbar-thin scrollbar-thumb-teal-500">
                 <Navbar />
                 <Routes>
                   <Route path="/" element={<About />} />

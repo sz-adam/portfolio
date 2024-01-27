@@ -32,7 +32,7 @@ const HomeInformation = () => {
           <img
             src={Me4}
             alt="my portfolio"
-            className="rounded-full w-[50%]"
+            className="h-72 sm:h-96 lg:h-80 rounded-full "
             style={{ boxShadow: boxShadow }}
           />
         </div>

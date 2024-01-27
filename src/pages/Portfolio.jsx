@@ -92,7 +92,7 @@ const Portfolio = () => {
           <p className='text-3xl p-4'>{i18n.text(language, i18n.MAP['portfolio-title'])}</p>
         </AnimatedMotion>
       </div>
-      <div className="w-full h-full p-5  grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+      <div className="w-full h-full p-5  grid gap-6 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 ">
         {portfolios.map((portfolio) => (
           <AnimatedMotion animationName="portfolioAnimations" key={portfolio.id}>
             <div style={{ boxShadow: boxShadow }} className="mx-auto bg-slate-700 rounded-2xl m-2 w-full h-96">
