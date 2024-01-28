@@ -17,7 +17,7 @@
   "home-cv": "Download the Resume",
   "home-portfolio": "Projects",
 
-  "portfolio-fullstackBlog": "I have completed the Node.js API Project: Build a Blog Project API 2023 course on Udemy. I am continuously enhancing it with additional features and also developing the corresponding frontend. The testing option is not available yet.",
+  "portfolio-fullstackBlog": "I have completed the Node.js API Project: Build a Blog Project API 2023 course on Udemy. I am continuously enhancing it with additional features and also working on the frontend. The testing option is not yet available. Currently, the functionalities include registration, login, writing and editing posts, liking posts, writing and editing comments. Users can view the author's profile, where they can like or block the user, and the author can see who has viewed their profile. Users can also check their own profile to track who they have liked or blocked. There is a modification tab where users can change their profile picture, first name, last name, and password. There is an option to delete the user profile. An admin interface is available to view all users and can be used by the administrator to block users. In this case, the blocked user won't be able to create posts.",
   "portfolio-memorygame": "This is a simple memory game. It randomly selects six out of eighteen images for the game.",
   "portfolio-quiz": "This is a Quiz game using opentdb api. At the end of the questions, it displays the correct and incorrect answers.",
   "portfolio-movie": "Movies/TV shows can be searched using the OMDB API. They can be saved to favorites. More information is displayed in a modal window.",
