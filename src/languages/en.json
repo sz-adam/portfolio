@@ -1,42 +1,41 @@
 {
-    "code": "en",
-    "navbar-contact": "Contact",
-    "navbar-home": "About",
-    "navbar-portfolio": "Projects",
-    "navbar-skills": "Skills",
+  "code": "en",
+  "navbar-contact": "Contact",
+  "navbar-home": "About",
+  "navbar-portfolio": "Projects",
+  "navbar-skills": "Skills",
 
-    "about-name":"Adam Szabo",
-    "about-title":"Junior Frontend Developer",
+  "about-name": "Adam Szabo",
+  "about-title": "Junior Frontend Developer",
 
-    "flag-language":"Language",
-    "flag-theme":"Theme",
+  "flag-language": "Language",
+  "flag-theme": "Theme",
 
-    "home-name": "Hello, my name is Adam Szabo",
-    "home-junior": "and I am a Junior FrontEnd developer",
-    "home-about": "The world of programming has always fascinated me, and in order to further my professional development, I have not only learned in a self-taught manner but also enrolled in a bootcamp in 2022. Since then, I have managed to find that particular area which seems especially exciting and full of challenges to me. I enjoy exploring new technologies and I am always open to new opportunities that offer further growth for me. I strive to continuously expand and deepen my professional knowledge, as well as improve my skills, in order to work even more effectively and efficiently in the field.",
-    "home-cv":"Download the CV",
-    "home-portfolio":"Projects",
+  "home-name": "Hello, my name is Adam Szabo",
+  "home-junior": "and I am a Junior FrontEnd developer",
+  "home-about": "The world of programming has always fascinated me, and in order to further my professional development, I have not only learned in a self-taught manner but also enrolled in a bootcamp in 2022. Since then, I have managed to find that particular area which seems especially exciting and full of challenges to me. I enjoy exploring new technologies and I am always open to new opportunities that offer further growth for me. I strive to continuously expand and deepen my professional knowledge, as well as improve my skills, in order to work even more effectively and efficiently in the field.",
+  "home-cv": "Download the CV",
+  "home-portfolio": "Projects",
 
-    "portfolio-memorygame":"This is a simple memory game. It randomly selects six out of eighteen images for the game.",
-    "portfolio-quiz":"This is a Quiz game using opentdb api. At the end of the questions, it displays the correct and incorrect answers.",
-    "portfolio-movie":"Movies/TV shows can be searched using the OMDB API. They can be saved to favorites. More information is displayed in a modal window.",
-    "portfolio-angularTodo":"This is an Angular-based TODO-List for which I used PrimeNG.",
-    "portfolio-angularPokemon":"This is a pokemon application, it lists 20 pokemons, you can filter them separately by type, and with the help of a pop-up window, it displays even more data about the given pokemon.",
-    "portfolio-nativeCrypto":"An Android crypto application with a welcome screen, a crypto page that operates using APIs. Users can add to favorites, utilizing AsyncStorage. Additionally, there's a page where more information about cryptocurrencies can be read.",
-    "portfolio-title":"Check out my works.",
+  "portfolio-fullstackBlog": "I have completed the Node.js API Project: Build a Blog Project API 2023 course on Udemy. I am continuously enhancing it with additional features and also developing the corresponding frontend. The testing option is not available yet.",
+  "portfolio-memorygame": "This is a simple memory game. It randomly selects six out of eighteen images for the game.",
+  "portfolio-quiz": "This is a Quiz game using opentdb api. At the end of the questions, it displays the correct and incorrect answers.",
+  "portfolio-movie": "Movies/TV shows can be searched using the OMDB API. They can be saved to favorites. More information is displayed in a modal window.",
+  "portfolio-angularTodo": "This is an Angular-based TODO-List for which I used PrimeNG.",
+  "portfolio-angularPokemon": "This is a pokemon application, it lists 20 pokemons, you can filter them separately by type, and with the help of a pop-up window, it displays even more data about the given pokemon.",
+  "portfolio-nativeCrypto": "An Android crypto application with a welcome screen, a crypto page that operates using APIs. Users can add to favorites, utilizing AsyncStorage. Additionally, there's a page where more information about cryptocurrencies can be read.",
+  "portfolio-title": "Check out my works.",
 
-    "portfolio-memorygame-name":"Memory Game(react)",
-    "portfolio-quiz-name":"Quiz(react)",
-    "portfolio-movie-name":"Movie(react)",
-    "portfolio-angularTodo-name":"Todo list(angular)",
-    "portfolio-angularPokemon-name":"Pokemon(angular)",
-    "portfolio-nativeCrypto-name":"Crypto(react native)",
+  "portfolio-memorygame-name": "Memory Game(react)",
+  "portfolio-quiz-name": "Quiz(react)",
+  "portfolio-movie-name": "Movie(react)",
+  "portfolio-angularTodo-name": "Todo list(angular)",
+  "portfolio-angularPokemon-name": "Pokemon(angular)",
+  "portfolio-nativeCrypto-name": "Crypto(react native)",
 
-    "skills-title":"I know these technologies.",
+  "skills-title": "I know these technologies.",
 
-    
-    "loading-loading":"Loading",
+  "loading-loading": "Loading",
 
-    "modal-close":"Close"
-
-}   
+  "modal-close": "Close"
+}

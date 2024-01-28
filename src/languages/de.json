@@ -16,6 +16,8 @@
     "home-about": "Die Welt des Programmierens hat mich schon immer fasziniert, und um meine berufliche Entwicklung voranzutreiben, habe ich nicht nur autodidaktisch gelernt, sondern mich auch 2022 für ein Bootcamp eingeschrieben. Seitdem habe ich mein Interessengebiet gefunden, das für mich besonders spannend und herausfordernd erscheint. Ich liebe neue Technologien und bin immer offen für weitere Möglichkeiten, die meine Weiterentwicklung vorantreiben. Ich bemühe mich ständig, mein Fachwissen zu erweitern und zu vertiefen sowie meine Fähigkeiten zu verbessern, um noch erfolgreicher und effizienter in diesem Bereich arbeiten zu können.",
     "home-cv": "Lade meinen Lebenslauf herunter",
     "home-portfolio": "Meine Arbeiten",
+
+    "portfolio-fullstackBlog":"Ich habe den Node.js API Project: Build a Blog Project API 2023 Kurs auf Udemy abgeschlossen. Ich erweitere ihn kontinuierlich um zusätzliche Funktionen und entwickle auch das entsprechende Frontend dafür. Die Testoption ist noch nicht verfügbar.",
     "portfolio-memorygame": "Dies ist ein einfaches Memory-Spiel. Es wählt zufällig sechs von 18 Bildern für das Spiel aus.",
     "portfolio-quiz": "Dies ist ein Quiz-Spiel mit der Verwendung der opentdb API. Am Ende der Fragen werden die richtigen und falschen Antworten angezeigt.",
     "portfolio-movie":"Filme/Serien können mit Hilfe der OMDB-API gesucht werden. Sie können zu Favoriten hinzugefügt werden. Weitere Informationen werden in einem Modal-Fenster angezeigt.",

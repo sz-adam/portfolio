@@ -7,6 +7,7 @@ import angularpokemon from "../images/pokemon.png"
 import quiz from "../images/quiz.png"
 import movie from "../images/movie.png"
 import crypto from "../images/crypto-home.jpg"
+import blog from "../images/blog-app.png"
 import { LanguageContext } from '../context/LanguageContext'
 import { ThemeContext } from '../context/ThemeContext'
 import ProjectModal from '../components/ProjectModal'
@@ -82,6 +83,14 @@ const Portfolio = () => {
       title: i18n.text(language, i18n.MAP['portfolio-nativeCrypto']),
       link: "https://github.com/sz-adam/react-native-cryptoApp/tree/master",
       demo: "https://github.com/sz-adam/react-native-cryptoApp/blob/master/README.md"
+    },
+    {
+      id: 7,
+      src: blog,
+      name: "Blog(hobby project, udemy)",
+      title: i18n.text(language, i18n.MAP['portfolio-fullstackBlog']),
+      link: "https://github.com/sz-adam/Blog-fullsctack-",
+      demo: "https://github.com/sz-adam/Blog-fullsctack-"
     },
   ]
 
