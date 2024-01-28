@@ -13,7 +13,7 @@ const ProjectModal = ({ closeModal, portfolio }) => {
         <div className="z-50 fixed inset-0 flex items-center justify-center p-5 ">
             <div className="absolute inset-0 bg-slate-900 opacity-20"></div>
             <AnimatedMotion animationName="modalAnimations"
-                className="relative bg-slate-700 border w-2/3 h-2/3 max-sm:w-full rounded-2xl max-md:h-full flex text-center max-md:flex-col"
+                className="relative bg-slate-700 border w-2/3 h-2/3 max-sm:w-full rounded-2xl max-md:h-full flex text-center max-md:flex-col overflow-auto"
             >
                 <div className="w-1/2 max-md:w-full max-sm:h-[45%] max-md:h-[55%]">
                     <img className="w-full h-full object-cover max-md:rounded-t-2xl md:rounded-l-2xl" src={portfolio.src} alt={portfolio.name} />
