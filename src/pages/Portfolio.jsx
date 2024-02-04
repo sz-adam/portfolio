@@ -90,7 +90,7 @@ const Portfolio = () => {
       name: "Blog(hobby project, udemy)",
       title: i18n.text(language, i18n.MAP['portfolio-fullstackBlog']),
       link: "https://github.com/sz-adam/Blog-fullsctack-",
-      demo: "https://github.com/sz-adam/Blog-fullsctack-"
+      demo: "https://www.youtube.com/watch?v=H-CU_7dVSHY"
     },
   ]
 
