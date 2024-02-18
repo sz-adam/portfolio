@@ -74,7 +74,7 @@ const Portfolio = () => {
       name: "Pokemon(angular)",
       title: i18n.text(language, i18n.MAP['portfolio-angularPokemon']),
       link: "https://github.com/sz-adam/angular-pokemon",
-      demo: "https://sz-adam.github.io/pages-pokemon/"
+      demo: "https://sz-adam.github.io/angular-pokemon-pages/"
     },
     {
       id: 6,
