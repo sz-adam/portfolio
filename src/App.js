@@ -48,7 +48,7 @@ function App() {
                 <HomeInformation />
               </div>
               {/* about */}
-              <div style={{ boxShadow: boxShadow }} className="w-[70%] h-[80%] max-lg:h-full rounded-2xl overflow-auto max-lg:w-full max-lg:pt-10 scrollbar-thin scrollbar-thumb-teal-500">
+              <div style={{ boxShadow: boxShadow }} className="w-[70%] h-[80%] max-lg:h-full rounded-2xl overflow-auto max-lg:w-full max-lg:pt-10  scrollbar scrollbar-thumb-green-500 ">
                 <Navbar />
                 <Routes>
                   <Route path="/" element={<About />} />
