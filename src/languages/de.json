@@ -17,6 +17,8 @@
     "home-cv": "Lade meinen Lebenslauf herunter",
     "home-portfolio": "Meine Arbeiten",
 
+    "portfolio-category":"Alle",
+
     "portfolio-fullstackBlog":"ich habe den Node.js API Project: Build a Blog Project API 2023-Kurs auf Udemy abgeschlossen. Ich erweitere ihn kontinuierlich um zusätzliche Funktionen und arbeite auch am Frontend. Derzeit umfassen die Funktionen die Registrierung, Anmeldung, das Schreiben und Bearbeiten von Beiträgen, das Liken von Beiträgen sowie das Schreiben und Bearbeiten von Kommentaren. Benutzer können das Profil des Autors anzeigen, wo sie den Benutzer mögen oder blockieren können, und der Autor kann sehen, wer sein Profil angesehen hat. Benutzer können auch ihr eigenes Profil überprüfen, um zu verfolgen, wen sie mögen oder blockiert haben. Es gibt einen Änderungsreiter, auf dem Benutzer ihr Profilbild, den Vornamen, den Nachnamen und das Passwort ändern können. Es gibt die Möglichkeit, das Benutzerprofil zu löschen. Es steht eine Admin-Schnittstelle zur Verfügung, auf der alle Benutzer angezeigt und vom Administrator blockiert werden können. In diesem Fall kann der blockierte Benutzer keine Beiträge erstellen. Videodemonstration verfügbar.",
     "portfolio-memorygame": "Dies ist ein einfaches Memory-Spiel. Es wählt zufällig sechs von 18 Bildern für das Spiel aus.",
     "portfolio-quiz": "Dies ist ein Quiz-Spiel mit der Verwendung der opentdb API. Am Ende der Fragen werden die richtigen und falschen Antworten angezeigt.",
