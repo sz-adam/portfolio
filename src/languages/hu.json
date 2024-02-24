@@ -17,8 +17,6 @@
   "home-cv": "Töltsd le az önéletrajzot",
   "home-portfolio": "Munkáim",
 
-  "portfolio-category": "Összes",
-
   "portfolio-fullstackBlog": "Elvégeztem Udemy-n a Nodejs API Project: Build a Blog Project API 2023 képzést , folyamatosan egészítem ki plusz funkciókkal és készítem hozzá a Frontendet is. Jelenleg: Regisztráció, bejelentkezés, poszt írása , módosítása, kedvelése.  Comment írása , módosítása. Szerző profiljának megtekintése ahol lehet kedvelni illetve blokkolni a felhasználót , illetve a szerző látja , hogy ki nézte meg a profilját. Saját profil megnézése ahol nyomon lehet követni, hogy kiket kedveltünk vagy blokkoltuk. Van egy módosítás füll ahol lehet a profilképet, kereszt és a vezetéknevet valamint jelszót változtatni. Lehetőség van a felhasználói profil törlésére. Van egy admin felület, ahol az összes felhasználót az adott adminisztrátor megtekintheti és blokkolhatja. Ebben az esetben a felhasználó nem tud posztot létrehozni. Videó bemutató elérhető.",
   "portfolio-memorygame": "Ez egy egyszerű memória játék. 18 képből választ véletlenszerűen hat darabot a játékhoz.",
   "portfolio-quiz": "Ez egy Quiz játék opentdb api használatával. A kérdések végén a helyes és helytelen válaszokat megjeleníti.",
