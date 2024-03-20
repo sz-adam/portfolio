@@ -30,14 +30,14 @@ const About = () => {
                     </p>
                 </AnimatedMotion>
                 <AnimatedMotion animationName="homeButtonAnimation">
-                    <div className="flex justify-around pb-2 my-16" >
-                        <Link to="/portfolio" className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out rounded-full shadow-md group" style={{ boxShadow: boxShadow }}>
+                    <div className="flex max-md:flex-col justify-around items-center pb-2 my-16 " >
+                        <Link to="/portfolio" className="relative inline-flex items-center justify-center   p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out rounded-full shadow-md group" style={{ boxShadow: boxShadow }}>
                             <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-cyan-700 group-hover:translate-x-0 ease">
                                 <AiOutlineArrowRight size={25} />
                             </span>
                             <span >{i18n.text(language, i18n.MAP['home-portfolio'])}</span>
                         </Link>
-                        <a href={oneletrajz} className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out rounded-full shadow-md group" style={{ boxShadow: boxShadow }}>
+                        <a href={oneletrajz} className="md:mt-0 mt-10 relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium transition duration-300 ease-out rounded-full shadow-md group" style={{ boxShadow: boxShadow }}>
                             <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-cyan-700 group-hover:translate-x-0 ease">
                                 <AiOutlineArrowRight size={25} />
                             </span>
