@@ -99,7 +99,7 @@ const Portfolio = () => {
       category:"Fullstack",
       title: i18n.text(language, i18n.MAP['portfolio-fullstackBlog']),
       link: "https://github.com/sz-adam/Blog-fullsctack-",
-      demo: "https://www.youtube.com/watch?v=H-CU_7dVSHY"
+      demo: "https://www.youtube.com/watch?v=-1KRmwhIT5g"
     },
   ]
 

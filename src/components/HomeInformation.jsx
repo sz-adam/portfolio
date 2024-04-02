@@ -58,7 +58,7 @@ const HomeInformation = () => {
           <div className="p-3" >
             <a href="https://www.linkedin.com/in/%C3%A1d%C3%A1m-szab%C3%B3-06733527a/" className="flex  items-center text-center">
               <BsLinkedin className="text-xl animate-bounce" />
-              <span className="ml-4">linkedin</span>
+              <span className="ml-4">Linkedin</span>
             </a>
           </div>
 
