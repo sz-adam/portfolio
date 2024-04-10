@@ -9,6 +9,7 @@ import scss from "../images/scss.png";
 import tailwind from "../images/tailwind.png";
 import TypeScript from "../images/typescript.png";
 import bootstrap from "../images/bootstrap.png";
+import ReactNative from "../images/react-native.png";
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { LanguageContext } from "../context/LanguageContext";
@@ -48,7 +49,7 @@ const Skills = () => {
     {
       id: 6,
       src: react,
-      title: "React",
+      title: "React/NextJs",
     },
 
     {
@@ -70,6 +71,11 @@ const Skills = () => {
       id: 10,
       src: TypeScript,
       title: "TypeScript",
+    },
+    {
+      id: 11,
+      src: ReactNative,
+      title: "React-Native",
     },
   ];
 
@@ -93,7 +99,7 @@ const Skills = () => {
                   alt={skill.title}
                   className="w-[150px] h-[150px] object-contain mb-2"
                 />
-                <p className="mt-2">{skill.title}</p>
+                <p className="mt-2 text-xl font-medium italic">{skill.title}</p>
               </div>
             </AnimatedMotion>
           </AnimatedMotion>
