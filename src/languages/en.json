@@ -25,6 +25,7 @@
   "portfolio-angularPokemon": "This is a pokemon application, it lists 20 pokemons, you can filter them separately by type, and with the help of a pop-up window, it displays even more data about the given pokemon.",
   "portfolio-nativeCrypto": "An Android crypto application with a welcome screen, a crypto page that operates using APIs. Users can add to favorites, utilizing AsyncStorage. Additionally, there's a page where more information about cryptocurrencies can be read.",
   "portfolio-title": "Check out my works.",
+  "portfolio-nativeMovie":"This app uses the OMDb API to fetch movie and series data. You can browse movies and series manually or use the search function. You can also add items to your favorites list, and if you allow notifications, you will receive local notifications. For series, you can see all seasons and view details for each episode.",
 
   "portfolio-memorygame-name": "Memory Game(react)",
   "portfolio-quiz-name": "Quiz(react)",

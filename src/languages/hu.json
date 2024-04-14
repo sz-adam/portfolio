@@ -25,6 +25,7 @@
   "portfolio-angularPokemon": "Ez egy pokemon alkalmazás, 20 db pokemont listáz ki, a típusaira külön lehet szűrni és egy felugró ablak segítségével még több adatot jelenít meg az adott pokemonról.",
   "portfolio-nativeCrypto": "Egy Androidos Crypto alkalmazás , üdzölőképernyővel , crypto oldallal ami Api használatával történik . Kedvencekhez lehet adni , AsyncStorage-t használ. Plusz egy oldal ahol a cryptokról több indormáció olvasható ",
   "portfolio-title": "Nézd meg a munkáimat.",
+  "portfolio-nativeMovie":"Ez az alkalmazás az OMDb API-t használja a filmek és sorozatok adatainak lekéréséhez. Manuálisan böngészhet filmek és sorozatok között, vagy használhatja a kereső funkciót. A kedvencek listájához is hozzáadhat elemeket, és ha engedélyezi az értesítéseket, helyi értesítéseket fog kapni. A sorozatok esetében megtekintheti az összes évadot, és megtekintheti az egyes epizódok részleteit.",
 
   "portfolio-memorygame-name": "Memory Game(react)",
   "portfolio-quiz-name": "Quiz(react)",

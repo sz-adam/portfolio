@@ -24,6 +24,8 @@
     "portfolio-angularTodo": "Dies ist eine Angular-basierte TODO-Liste, für die ich PrimeNG verwendet habe.",
     "portfolio-angularPokemon": "Dies ist eine Pokémon-Anwendung, die 20 Pokémon auflistet. Sie können nach ihren Typen filtern und durch ein Popup-Fenster weitere Informationen zu einem bestimmten Pokémon anzeigen.",
     "portfolio-nativeCrypto":"Eine Android-Krypto-App mit einem Begrüßungsbildschirm, einer Kryptoseite, die APIs verwendet. Benutzer können Favoriten hinzufügen und dabei AsyncStorage nutzen. Zusätzlich gibt es eine Seite, auf der mehr Informationen über Kryptowährungen gelesen werden können. ",
+    "portfolio-nativeMovie":"Diese App verwendet die OMDb-API, um Film- und Seriendaten abzurufen. Sie können Filme und Serien manuell durchsuchen oder die Suchfunktion verwenden. Sie können Elemente auch zu Ihrer Favoritenliste hinzufügen. Wenn Sie Benachrichtigungen zulassen, erhalten Sie lokale Benachrichtigungen. Bei Serien können Sie alle Staffeln sehen und Details zu einzelnen Episoden anzeigen.",
+    
     
     "portfolio-memorygame-name":"Memory Game(react)",
     "portfolio-quiz-name":"Quiz(react)",
