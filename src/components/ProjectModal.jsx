@@ -20,7 +20,7 @@ const ProjectModal = ({ closeModal, portfolio }) => {
                 </div>
                 <div className="flex flex-col justify-center items-center text-center w-full  md:w-1/2 p-4">
                     <h1 className="text-white text-2xl font-bold">{portfolio.name}</h1>
-                    <p className="text-gray-200 my-4 md:my-10 text-justify ">{portfolio.title}</p>
+                    <p className="text-gray-200 my-4 md:my-10 text-justify ">{i18n.text(language, i18n.MAP["portfolio-nativeMovie"])}</p>
                     <div className="mt-4 space-x-4">
                         <a href={portfolio.demo}>
                             <button className="text-white">
