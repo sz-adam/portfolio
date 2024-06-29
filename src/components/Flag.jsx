@@ -13,16 +13,19 @@ const Flag = () => {
     { language: 'de', flag: gmflag },
   ];
 
+  const handleLanguageChange = (language) => {
+    setLanguage(language);
+    window.location.reload();
+  };
+
   return (
-    <div className=' flex '>
+    <div className='flex'>
       {languageOptions.map((option) => (
         <div key={option.language} className='cursor-pointer mx-5'>
           <img
             src={option.flag}
-            alt=""
-            onClick={() => {
-              setLanguage(option.language);
-            }}
+            alt={`${option.language} flag`}
+            onClick={() => handleLanguageChange(option.language)}
             width={40}
             height={25}
           />
