@@ -8,6 +8,7 @@ import AnimatedMotion from '../framerMotion/AnimatedMotion';
 const ProjectModal = ({ closeModal, portfolio }) => {
     const { language } = useContext(LanguageContext);
     const i18n = require('../utils/i18n');
+    console.log(portfolio)
 
     return (
         <div className="z-50 fixed inset-0 flex items-center justify-center p-5 ">
@@ -20,7 +21,7 @@ const ProjectModal = ({ closeModal, portfolio }) => {
                 </div>
                 <div className="flex flex-col justify-center items-center text-center w-full  md:w-1/2 p-4">
                     <h1 className="text-white text-2xl font-bold">{portfolio.name}</h1>
-                    <p className="text-gray-200 my-4 md:my-10 text-justify ">{i18n.text(language, i18n.MAP["portfolio-nativeMovie"])}</p>
+                    <p className="text-gray-200 my-4 md:my-10 text-justify ">{portfolio.title}</p>
                     <div className="mt-4 space-x-4">
                         <a href={portfolio.demo}>
                             <button className="text-white">

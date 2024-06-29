@@ -26,13 +26,16 @@
   "portfolio-nativeCrypto": "portfolio-nativeCrypto",
   "portfolio-nativeMovie": "portfolio-nativeMovie",
   "portfolio-title": "portfolio-title",
+  "portfolio-flutterPokemon":"portfolio-flutterPokemon",
+
 
   "portfolio-memorygame-name": "portfolio-memorygame-name",
   "portfolio-quiz-name": "portfolio-quiz-name",
   "portfolio-movie-name": "portfolio-movie-name",
   "portfolio-angularTodo-name": "portfolio-angularTodo-name",
   "portfolio-angularPokemon-name": "portfolio-angularPokemon-name",
-  "portfolio-nativeCrypto-name": "ortfolio-nativeCrypto-name",
+  "portfolio-nativeCrypto-name": "portfolio-nativeCrypto-name",
+  "portfolio-flutterPokemon-name": "portfolio-flutterPokemon-name",
 
   "skills-title": "skills-title",
 

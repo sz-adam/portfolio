@@ -9,6 +9,7 @@ import movie from "../images/movie.png";
 import crypto from "../images/crypto-home.jpg";
 import blog from "../images/blog-app.png";
 import movieNative from "../images/movie-native.png";
+import flutterPokemon from "../images/flutter_favorit.jpg";
 import { LanguageContext } from "../context/LanguageContext";
 import { ThemeContext } from "../context/ThemeContext";
 import ProjectModal from "../components/ProjectModal";
@@ -108,6 +109,15 @@ const Portfolio = () => {
       title: i18n.text(language, i18n.MAP["portfolio-nativeCrypto"]),
       link: "https://github.com/sz-adam/react-native-cryptoApp/tree/master",
       demo: "https://github.com/sz-adam/react-native-cryptoApp/blob/master/README.md",
+    },
+    {
+      id: 9,
+      src: flutterPokemon,
+      name: "Pokemon",
+      category: "Flutter",
+      title: i18n.text(language, i18n.MAP["portfolio-flutterPokemon"]),
+      link: "https://github.com/sz-adam/pokemon_flutter",
+      demo: "https://github.com/sz-adam/pokemon_flutter",
     },
   ];
 

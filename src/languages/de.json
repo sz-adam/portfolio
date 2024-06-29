@@ -25,7 +25,7 @@
     "portfolio-angularPokemon": "Dies ist eine Pokémon-Anwendung, die 20 Pokémon auflistet. Sie können nach ihren Typen filtern und durch ein Popup-Fenster weitere Informationen zu einem bestimmten Pokémon anzeigen.",
     "portfolio-nativeCrypto":"Eine Android-Krypto-App mit einem Begrüßungsbildschirm, einer Kryptoseite, die APIs verwendet. Benutzer können Favoriten hinzufügen und dabei AsyncStorage nutzen. Zusätzlich gibt es eine Seite, auf der mehr Informationen über Kryptowährungen gelesen werden können. ",
     "portfolio-nativeMovie":"Diese App verwendet die OMDb-API, um Film- und Seriendaten abzurufen. Sie können Filme und Serien manuell durchsuchen oder die Suchfunktion verwenden. Sie können Elemente auch zu Ihrer Favoritenliste hinzufügen. Wenn Sie Benachrichtigungen zulassen, erhalten Sie lokale Benachrichtigungen. Bei Serien können Sie alle Staffeln sehen und Details zu einzelnen Episoden anzeigen.",
-    
+    "portfolio-flutterPokemon":"Dies ist meine erste Flutter-Anwendung. Sie verwendet die PokeAPI, um alle Pokémon abzurufen und zeigt jedes von ihnen auf einer Karte an. Von den Karten aus kann man zu einer Detailseite navigieren, auf der weitere Informationen zu jedem Pokémon angezeigt werden. Pokémon können zu den Favoriten hinzugefügt werden. Die Anwendung verfügt auch über eine dynamische Suchfunktion.",
     
     "portfolio-memorygame-name":"Memory Game(react)",
     "portfolio-quiz-name":"Quiz(react)",
@@ -33,6 +33,8 @@
     "portfolio-angularTodo-name":"Todo list(angular)",
     "portfolio-angularPokemon-name":"Pokemon(angular)",
     "portfolio-nativeCrypto-name":"Crypto(react native)",
+    "portfolio-flutterPokemon-name": "Pokemon",
+
 
     "portfolio-title": "Sieh dir meine Arbeiten an.",
     "skills-title": "Diese Technologien beherrsche ich.",
