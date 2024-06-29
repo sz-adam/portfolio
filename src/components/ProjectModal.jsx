@@ -8,7 +8,6 @@ import AnimatedMotion from '../framerMotion/AnimatedMotion';
 const ProjectModal = ({ closeModal, portfolio }) => {
     const { language } = useContext(LanguageContext);
     const i18n = require('../utils/i18n');
-    console.log(portfolio)
 
     return (
         <div className="z-50 fixed inset-0 flex items-center justify-center p-5 ">
