@@ -26,7 +26,7 @@
   "portfolio-nativeCrypto": "An Android crypto application with a welcome screen, a crypto page that operates using APIs. Users can add to favorites, utilizing AsyncStorage. Additionally, there's a page where more information about cryptocurrencies can be read.",
   "portfolio-title": "Check out my works.",
   "portfolio-nativeMovie":"This app uses the OMDb API to fetch movie and series data. You can browse movies and series manually or use the search function. You can also add items to your favorites list, and if you allow notifications, you will receive local notifications. For series, you can see all seasons and view details for each episode.",
-  "portfolio-flutterPokemon": "This is my first Flutter application. It uses the PokeAPI to fetch all Pokémon and displays each of them in a card. You can navigate from the cards to a details page where more information about each Pokémon is displayed. Pokémon can be added to favorites. The application also features a dynamic search function.",
+  "portfolio-flutterPokemon": "My first Flutter application that uses the PokeAPI. It fetches all Pokémon, displays each in a card format, and navigates to a details screen where more information about the Pokémon is shown. Users can add Pokémon to favorites, and there's a dynamic search feature.",
 
 
   "portfolio-memorygame-name": "Memory Game(react)",
