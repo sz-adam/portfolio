@@ -12,6 +12,7 @@ import bootstrap from "../images/bootstrap.png";
 import ReactNative from "../images/react-native.png";
 import MySQL from "../images/MySQL.png";
 import MongoDB from "../images/mongodb.png";
+import Flutter from "../images/flutter.png";
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { LanguageContext } from "../context/LanguageContext";
@@ -88,6 +89,11 @@ const Skills = () => {
       id: 13,
       src: MongoDB,
       title: "MongoDB",
+    },
+    {
+      id: 14,
+      src: Flutter,
+      title: "Flutter",
     },
   ];
 
