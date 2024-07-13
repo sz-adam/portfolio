@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import oneletrajz from '../images/Önéletrajz.pdf';
+import oneletrajz from '../images/Adam_Szabo_resume.pdf';
 import { ThemeContext } from '../context/ThemeContext';
 import { LanguageContext } from '../context/LanguageContext';
 import AnimatedMotion from '../framerMotion/AnimatedMotion';
