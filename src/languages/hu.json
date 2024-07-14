@@ -16,6 +16,7 @@
   "home-about": "A programozás világa mindig is vonzott. Szakmai fejlődésem érdekében nemcsak autodidakta módon tanultam, hanem egy bootcampet is elvégeztem. Azóta megtaláltam azokat a területeket, amelyek különösen izgalmasnak és kihívásokkal telinek tűnnek számomra: Frontend és mobil applikáció fejlesztés. Szeretem az új technológiákat, és mindig nyitott vagyok az új lehetőségekre, amelyek további fejlődést jelentenek számomra.",
   "home-cv": "Önéletrajz",
   "home-portfolio": "Munkáim",
+  "portfolio-title": "Nézd meg a munkáimat.",
 
   "portfolio-fullstackBlog": "Elvégeztem Udemy-n a Nodejs API Project: Build a Blog Project API 2023 képzést , folyamatosan egészítem ki plusz funkciókkal és készítem hozzá a Frontendet is. Jelenleg: Regisztráció, bejelentkezés, poszt írása , módosítása, kedvelése.  Comment írása , módosítása. Szerző profiljának megtekintése ahol lehet kedvelni illetve blokkolni a felhasználót , illetve a szerző látja , hogy ki nézte meg a profilját. Saját profil megnézése ahol nyomon lehet követni, hogy kiket kedveltünk vagy blokkoltuk. Van egy módosítás füll ahol lehet a profilképet, kereszt és a vezetéknevet valamint jelszót változtatni. Lehetőség van a felhasználói profil törlésére. Van egy admin felület, ahol az összes felhasználót az adott adminisztrátor megtekintheti és blokkolhatja. Ebben az esetben a felhasználó nem tud posztot létrehozni. Blokkolt felhasználó egy üzenetet tud írni az adminisztrátornak. Továbbá kiegészült egy sötét móddal is.  Videó bemutató elérhető.",
   "portfolio-memorygame": "Ez egy egyszerű memória játék. 18 képből választ véletlenszerűen hat darabot a játékhoz.",
@@ -24,18 +25,19 @@
   "portfolio-angularTodo": "Ez egy Angular alapú TODO-List amihez PrimeNG-t használtam.",
   "portfolio-angularPokemon": "Ez egy pokemon alkalmazás, 20 db pokemont listáz ki, a típusaira külön lehet szűrni és egy felugró ablak segítségével még több adatot jelenít meg az adott pokemonról.",
   "portfolio-nativeCrypto": "Egy Androidos Crypto alkalmazás , üdzölőképernyővel , crypto oldallal ami Api használatával történik . Kedvencekhez lehet adni , AsyncStorage-t használ. Plusz egy oldal ahol a cryptokról több indormáció olvasható ",
-  "portfolio-title": "Nézd meg a munkáimat.",
   "portfolio-nativeMovie":"Ez az alkalmazás az OMDb API-t használja a filmek és sorozatok adatainak lekéréséhez. Manuálisan böngészhet filmek és sorozatok között, vagy használhatja a kereső funkciót. A kedvencek listájához is hozzáadhat elemeket, és ha engedélyezi az értesítéseket, helyi értesítéseket fog kapni. A sorozatok esetében megtekintheti az összes évadot, és megtekintheti az egyes epizódok részleteit.",
   "portfolio-flutterPokemon": "Az első flutter alkalmazásom ami a  PokeApit használja . Lekéri az összes pokemont , mindegyiket egy kártyában jeleníti meg . A kártyákról átnavigál egy detailsre ahol több információ jelenik meg az adott pokemonról. Hozzá lehet adni a kedvencekhez és van egy dinamikus kereső is. ",
+  "portfolio-flutterWeather":"Egy kezdőképernyővel kezdődik, ahol megadhatja a város nevét. Ha a kérés során érvényes városnevet talál, akkor a napi és óránkénti időjárást jeleníti meg. Ha nem ír be semmit, hibaüzenet jelenik meg, és nem teszi lehetővé a folytatást. Ha érvénytelen nevet ad meg, hibaüzenet jelenik meg. Egy modális ablakot tartalmaz, ha egy másik város időjárási adatait szeretné lekérni. Az időjárás ikonok és háttérképek alkalmazkodnak az időjárási viszonyokhoz. OpenMeteo apit használja.",
  
- 
-  "portfolio-memorygame-name": "Memory Game(react)",
-  "portfolio-quiz-name": "Quiz(react)",
-  "portfolio-movie-name": "Movie(react)",
-  "portfolio-angularTodo-name": "Todo list(angular)",
-  "portfolio-angularPokemon-name": "Pokemon(angular)",
-  "portfolio-nativeCrypto-name": "Crypto(react native)",
+  "portfolio-memorygame-name": "Memória játék",
+  "portfolio-quiz-name": "Kvíz játék",
+  "portfolio-movie-name": "Film",
+  "portfolio-angularTodo-name": "Teendő lista",
+  "portfolio-angularPokemon-name": "Pokemon",
+  "portfolio-nativeCrypto-name": "Crypto",
   "portfolio-flutterPokemon-name": "Pokemon",
+  "portfolio-flutterWeather-name":"Időjárás",
+  "portfolio-nativeMovie-name":"Film",
 
   "portfolio-title-name": "portfolio-title-name",
 

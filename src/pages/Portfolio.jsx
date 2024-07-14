@@ -9,6 +9,7 @@ import movie from "../images/movie.png";
 import crypto from "../images/crypto-home.jpg";
 import blog from "../images/blog-app.png";
 import movieNative from "../images/movie-native.png";
+import weather from "../images/weather.jpg";
 import flutterPokemon from "../images/flutter_favorit.jpg";
 import { LanguageContext } from "../context/LanguageContext";
 import { ThemeContext } from "../context/ThemeContext";
@@ -39,7 +40,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: memorygame,
-      name: "Memory Game(react)",
+      name: i18n.text(language, i18n.MAP["portfolio-memorygame-name"]),
       category: "React",
       title: i18n.text(language, i18n.MAP["portfolio-memorygame"]),
       link: "https://github.com/sz-adam/react-memorygame-tailwindcss",
@@ -48,7 +49,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: quiz,
-      name: "Quiz(react)",
+      name: i18n.text(language, i18n.MAP["portfolio-quiz-name"]),
       category: "React",
       title: i18n.text(language, i18n.MAP["portfolio-quiz"]),
       link: "https://github.com/sz-adam/react-quiz",
@@ -58,7 +59,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: movie,
-      name: "Movie(react)",
+      name: i18n.text(language, i18n.MAP["portfolio-movie-name"]),
       category: "React",
       title: i18n.text(language, i18n.MAP["portfolio-movie"]),
       link: "https://github.com/sz-adam/react-movie-2.0",
@@ -67,7 +68,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: angularTodo,
-      name: "Todo list(angular)",
+      name: i18n.text(language, i18n.MAP["portfolio-angularTodo-name"]),
       category: "Angular",
       title: i18n.text(language, i18n.MAP["portfolio-angularTodo"]),
       link: "https://github.com/sz-adam/Todo-list-angular-PrimeNg-",
@@ -77,7 +78,7 @@ const Portfolio = () => {
     {
       id: 5,
       src: angularpokemon,
-      name: "Pokemon(angular)",
+      name: i18n.text(language, i18n.MAP["portfolio-angularPokemon-name"]),
       category: "Angular",
       title: i18n.text(language, i18n.MAP["portfolio-angularPokemon"]),
       link: "https://github.com/sz-adam/angular-pokemon",
@@ -86,7 +87,7 @@ const Portfolio = () => {
     {
       id: 6,
       src: movieNative,
-      name: "Movie",
+      name: i18n.text(language, i18n.MAP["portfolio-nativeMovie-name"]),
       category: "React Native",
       title: i18n.text(language, i18n.MAP["portfolio-nativeMovie"]),
       link: "https://github.com/sz-adam/Movie-native",
@@ -95,7 +96,7 @@ const Portfolio = () => {
     {
       id: 7,
       src: blog,
-      name: "Blog(hobby project, udemy)",
+      name: "Blog",
       category: "Fullstack",
       title: i18n.text(language, i18n.MAP["portfolio-fullstackBlog"]),
       link: "https://github.com/sz-adam/Blog-fullsctack-",
@@ -104,7 +105,7 @@ const Portfolio = () => {
     {
       id: 8,
       src: crypto,
-      name: "Crypto(react native)",
+      name: i18n.text(language, i18n.MAP["portfolio-nativeCrypto-name"]),
       category: "React Native",
       title: i18n.text(language, i18n.MAP["portfolio-nativeCrypto"]),
       link: "https://github.com/sz-adam/react-native-cryptoApp/tree/master",
@@ -113,11 +114,20 @@ const Portfolio = () => {
     {
       id: 9,
       src: flutterPokemon,
-      name: "Pokemon",
+      name: i18n.text(language, i18n.MAP["portfolio-flutterPokemon-name"]),
       category: "Flutter",
       title: i18n.text(language, i18n.MAP["portfolio-flutterPokemon"]),
       link: "https://github.com/sz-adam/pokemon_flutter",
       demo: "https://github.com/sz-adam/pokemon_flutter",
+    },
+    {
+      id: 10,
+      src: weather,
+      name: i18n.text(language, i18n.MAP["portfolio-flutterWeather-name"]),
+      category: "Flutter",
+      title: i18n.text(language, i18n.MAP["portfolio-flutterWeather"]),
+      link: "https://github.com/sz-adam/weather_flutter",
+      demo: "https://github.com/sz-adam/weather_flutter",
     },
   ];
 

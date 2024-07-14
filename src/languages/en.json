@@ -16,6 +16,7 @@
   "home-about": "The world of programming has always fascinated me. For my professional development, I have not only learned self-taught, but also completed a bootcamp. Since then, I have found the areas that seem particularly exciting and challenging to me: Frontend and mobile application development. I love new technologies and am always open to new opportunities that allow me to grow further.",
   "home-cv": "Resume",
   "home-portfolio": "Projects",
+  "portfolio-title": "Check out my works.",
 
   "portfolio-fullstackBlog": "I have completed the Node.js API Project: Build a Blog Project API 2023 course on Udemy. I am continuously enhancing it with additional features and also working on the frontend. Currently, the functionalities include registration, login, writing and editing posts, liking posts, writing and editing comments. Users can view the author's profile, where they can like or block the user, and the author can see who has viewed their profile. Users can also check their own profile to track who they have liked or blocked. There is a modification tab where users can change their profile picture, first name, last name, and password. There is an option to delete the user profile. An admin interface is available to view all users and can be used by the administrator to block users. In this case, the blocked user won't be able to create posts. Blocked user can send a message to the administrator. Additionally, a dark mode has been added. Video demonstration available.",
   "portfolio-memorygame": "This is a simple memory game. It randomly selects six out of eighteen images for the game.",
@@ -24,19 +25,19 @@
   "portfolio-angularTodo": "This is an Angular-based TODO-List for which I used PrimeNG.",
   "portfolio-angularPokemon": "This is a pokemon application, it lists 20 pokemons, you can filter them separately by type, and with the help of a pop-up window, it displays even more data about the given pokemon.",
   "portfolio-nativeCrypto": "An Android crypto application with a welcome screen, a crypto page that operates using APIs. Users can add to favorites, utilizing AsyncStorage. Additionally, there's a page where more information about cryptocurrencies can be read.",
-  "portfolio-title": "Check out my works.",
-  "portfolio-nativeMovie":"This app uses the OMDb API to fetch movie and series data. You can browse movies and series manually or use the search function. You can also add items to your favorites list, and if you allow notifications, you will receive local notifications. For series, you can see all seasons and view details for each episode.",
+  "portfolio-nativeMovie": "This app uses the OMDb API to fetch movie and series data. You can browse movies and series manually or use the search function. You can also add items to your favorites list, and if you allow notifications, you will receive local notifications. For series, you can see all seasons and view details for each episode.",
   "portfolio-flutterPokemon": "My first Flutter application that uses the PokeAPI. It fetches all Pokémon, displays each in a card format, and navigates to a details screen where more information about the Pokémon is shown. Users can add Pokémon to favorites, and there's a dynamic search feature.",
+  "portfolio-flutterWeather": "It starts with a starting screen where you can enter the name of a city. If a valid city name is found during the request, it displays the daily and hourly weather. If nothing is entered, an error is shown and it won't allow you to proceed. If an invalid name is entered, an error message is displayed. A modal window is included if you want to request weather data for another city. The weather icons and background images adapt to the weather conditions. It uses the OpenMeteo api.",
 
-
-  "portfolio-memorygame-name": "Memory Game(react)",
-  "portfolio-quiz-name": "Quiz(react)",
-  "portfolio-movie-name": "Movie(react)",
-  "portfolio-angularTodo-name": "Todo list(angular)",
-  "portfolio-angularPokemon-name": "Pokemon(angular)",
-  "portfolio-nativeCrypto-name": "Crypto(react native)",
+  "portfolio-memorygame-name": "Memory Game",
+  "portfolio-quiz-name": "Quiz",
+  "portfolio-movie-name": "Movie",
+  "portfolio-angularTodo-name": "Todo list",
+  "portfolio-angularPokemon-name": "Pokemon",
+  "portfolio-nativeCrypto-name": "Crypto",
   "portfolio-flutterPokemon-name": "Pokemon",
-
+  "portfolio-flutterWeather-name": "Weather",
+  "portfolio-nativeMovie-name": "Movie",
 
   "skills-title": "I know these technologies.",
 

@@ -27,6 +27,7 @@
   "portfolio-nativeMovie": "portfolio-nativeMovie",
   "portfolio-title": "portfolio-title",
   "portfolio-flutterPokemon":"portfolio-flutterPokemon",
+  "portfolio-flutterWeather":"portfolio-flutterWeather",
 
 
   "portfolio-memorygame-name": "portfolio-memorygame-name",
@@ -36,6 +37,9 @@
   "portfolio-angularPokemon-name": "portfolio-angularPokemon-name",
   "portfolio-nativeCrypto-name": "portfolio-nativeCrypto-name",
   "portfolio-flutterPokemon-name": "portfolio-flutterPokemon-name",
+  "portfolio-flutterWeather-name":"portfolio-flutterWeather-name",
+  "portfolio-nativeMovie-name":"portfolio-nativeMovie-name",
+
 
   "skills-title": "skills-title",
 

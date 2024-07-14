@@ -26,14 +26,18 @@
     "portfolio-nativeCrypto":"Eine Android-Krypto-App mit einem Begrüßungsbildschirm, einer Kryptoseite, die APIs verwendet. Benutzer können Favoriten hinzufügen und dabei AsyncStorage nutzen. Zusätzlich gibt es eine Seite, auf der mehr Informationen über Kryptowährungen gelesen werden können. ",
     "portfolio-nativeMovie":"Diese App verwendet die OMDb-API, um Film- und Seriendaten abzurufen. Sie können Filme und Serien manuell durchsuchen oder die Suchfunktion verwenden. Sie können Elemente auch zu Ihrer Favoritenliste hinzufügen. Wenn Sie Benachrichtigungen zulassen, erhalten Sie lokale Benachrichtigungen. Bei Serien können Sie alle Staffeln sehen und Details zu einzelnen Episoden anzeigen.",
     "portfolio-flutterPokemon":"Meine erste Flutter-Anwendung, die die PokeAPI verwendet. Sie ruft alle Pokémon ab, zeigt jedes in einer Kartenansicht an und navigiert zu einem Detailbildschirm, auf dem mehr Informationen über das Pokémon angezeigt werden. Benutzer können Pokémon zu Favoriten hinzufügen, und es gibt eine dynamische Suchfunktion.",
-    
-    "portfolio-memorygame-name":"Memory Game(react)",
-    "portfolio-quiz-name":"Quiz(react)",
-    "portfolio-movie-name":"Film(react)",
-    "portfolio-angularTodo-name":"Todo list(angular)",
-    "portfolio-angularPokemon-name":"Pokemon(angular)",
-    "portfolio-nativeCrypto-name":"Crypto(react native)",
+    "portfolio-flutterWeather":"Es beginnt mit einem Startbildschirm, auf dem Sie den Namen der Stadt eingeben können. Wenn bei der Anfrage ein gültiger Stadtname gefunden wird, werden das tägliche und stündliche Wetter angezeigt. Wenn nichts eingegeben wird, erscheint eine Fehlermeldung und eine Fortsetzung ist nicht möglich. Wenn ein ungültiger Name eingegeben wird, erscheint eine Fehlermeldung. Es enthält ein modales Fenster, wenn Sie die Wetterdaten einer anderen Stadt abrufen möchten. Die Wetter-Icons und Hintergrundbilder passen sich den Wetterbedingungen an. Es verwendet die OpenMeteo-API.",
+
+
+    "portfolio-memorygame-name":"Memory-Spiel",
+    "portfolio-quiz-name":"Quiz",
+    "portfolio-movie-name":"Film",
+    "portfolio-angularTodo-name":"Aufgabenliste",
+    "portfolio-angularPokemon-name":"Pokemon",
+    "portfolio-nativeCrypto-name":"Crypto",
     "portfolio-flutterPokemon-name": "Pokemon",
+    "portfolio-flutterWeather-name":"Wetter",
+    "portfolio-nativeMovie-name":"Film",
 
 
     "portfolio-title": "Sieh dir meine Arbeiten an.",
