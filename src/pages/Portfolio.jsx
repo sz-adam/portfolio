@@ -11,6 +11,7 @@ import blog from "../images/blog-app.png";
 import movieNative from "../images/movie-native.png";
 import weather from "../images/weather.jpg";
 import flutterPokemon from "../images/flutter_favorit.jpg";
+import webshop from "../images/webshop.jpg";
 import { LanguageContext } from "../context/LanguageContext";
 import { ThemeContext } from "../context/ThemeContext";
 import ProjectModal from "../components/ProjectModal";
@@ -128,6 +129,15 @@ const Portfolio = () => {
       title: i18n.text(language, i18n.MAP["portfolio-flutterWeather"]),
       link: "https://github.com/sz-adam/weather_flutter",
       demo: "https://github.com/sz-adam/weather_flutter",
+    },
+    {
+      id: 11,
+      src: webshop,
+      name: i18n.text(language, i18n.MAP["portfolio-webshop-name"]),
+      category: "React",
+      title: i18n.text(language, i18n.MAP["portfolio-webshop"]),
+      link: "https://github.com/sz-adam/webshop-react",
+      demo: "https://sz-adam.github.io/webshop-react/",
     },
   ];
 

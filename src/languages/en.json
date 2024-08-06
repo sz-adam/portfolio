@@ -28,6 +28,8 @@
   "portfolio-nativeMovie": "This app uses the OMDb API to fetch movie and series data. You can browse movies and series manually or use the search function. You can also add items to your favorites list, and if you allow notifications, you will receive local notifications. For series, you can see all seasons and view details for each episode.",
   "portfolio-flutterPokemon": "My first Flutter application that uses the PokeAPI. It fetches all Pokémon, displays each in a card format, and navigates to a details screen where more information about the Pokémon is shown. Users can add Pokémon to favorites, and there's a dynamic search feature.",
   "portfolio-flutterWeather": "It starts with a starting screen where you can enter the name of a city. If a valid city name is found during the request, it displays the daily and hourly weather. If nothing is entered, an error is shown and it won't allow you to proceed. If an invalid name is entered, an error message is displayed. A modal window is included if you want to request weather data for another city. The weather icons and background images adapt to the weather conditions. It uses the OpenMeteo api.",
+  "portfolio-webshop": "Webshop application built with React + Vite and TypeScript. Tailwind CSS was used for styling. The foundation is the open-source API, FakeStoreAPI. useReducer was used for managing all request states. The website consists of four pages. On the main page, products are displayed in card format. You can add items to favorites, place them in the cart, and filter by category. Additionally, you can navigate to a details page, where more information about the product is available. In the cart, products are displayed individually, allowing you to increase, decrease, or remove the quantity. At checkout, you can enter the DISCOUNT10 promo code to receive a 10% discount.",
+
 
   "portfolio-memorygame-name": "Memory Game",
   "portfolio-quiz-name": "Quiz",
@@ -38,6 +40,8 @@
   "portfolio-flutterPokemon-name": "Pokemon",
   "portfolio-flutterWeather-name": "Weather",
   "portfolio-nativeMovie-name": "Movie",
+  "portfolio-webshop-name":"Webshop",
+
 
   "skills-title": "I know these technologies.",
 
