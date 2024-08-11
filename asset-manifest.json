@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.66dd9c3f.css",
-    "main.js": "/portfolio/static/js/main.ede634cf.js",
+    "main.js": "/portfolio/static/js/main.091e4be5.js",
     "static/media/movie.png": "/portfolio/static/media/movie.11d16bf9e41a6b466911.png",
     "static/media/blog-app.png": "/portfolio/static/media/blog-app.c8d150956d05e1cdb7fd.png",
     "static/media/me44.png": "/portfolio/static/media/me44.00b97300889b34432532.png",
@@ -19,9 +19,9 @@
     "static/media/crypto-home.jpg": "/portfolio/static/media/crypto-home.05de8315394c34a699c3.jpg",
     "static/media/angular-todo.jpg": "/portfolio/static/media/angular-todo.8f1bbffe131e1bd6b733.jpg",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.c8790f181c3c3fc16f86.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.778ea53972d35f486f43.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.225a66fdeef976e6bfb5.png",
     "static/media/typescript.png": "/portfolio/static/media/typescript.52ea0bc40ba11d507e7d.png",
-    "static/media/MySQL.png": "/portfolio/static/media/MySQL.0d2d0ab663ef29d223e2.png",
     "static/media/react.png": "/portfolio/static/media/react.ac14d2f265d39f14fb97.png",
     "static/media/flutter.png": "/portfolio/static/media/flutter.00f35ef2c3d6d7651bbe.png",
     "static/media/css.png": "/portfolio/static/media/css.bc75ccc78e3bf74f8aed.png",
@@ -30,10 +30,10 @@
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.99e0b6fdb08924dd678c.png",
     "index.html": "/portfolio/index.html",
     "main.66dd9c3f.css.map": "/portfolio/static/css/main.66dd9c3f.css.map",
-    "main.ede634cf.js.map": "/portfolio/static/js/main.ede634cf.js.map"
+    "main.091e4be5.js.map": "/portfolio/static/js/main.091e4be5.js.map"
   },
   "entrypoints": [
     "static/css/main.66dd9c3f.css",
-    "static/js/main.ede634cf.js"
+    "static/js/main.091e4be5.js"
   ]
 }
