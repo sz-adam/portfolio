@@ -10,7 +10,7 @@ import tailwind from "../images/tailwind.png";
 import TypeScript from "../images/typescript.png";
 import bootstrap from "../images/bootstrap.png";
 import ReactNative from "../images/react-native.png";
-import MySQL from "../images/MySQL.png";
+import Firebase from "../images/firebase.png";
 import MongoDB from "../images/mongodb.png";
 import Flutter from "../images/flutter.png";
 import { useContext } from "react";
@@ -82,8 +82,8 @@ const Skills = () => {
     },
     {
       id: 12,
-      src: MySQL,
-      title: "MySQL",
+      src: Firebase,
+      title: "Firebase",
     },
     {
       id: 13,
