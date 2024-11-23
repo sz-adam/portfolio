@@ -12,6 +12,7 @@ import movieNative from "../images/movie-native.png";
 import weather from "../images/weather.jpg";
 import flutterPokemon from "../images/flutter_favorit.jpg";
 import webshop from "../images/webshop.jpg";
+import celestial from "../images/Celestial_bodies.jpg";
 import { LanguageContext } from "../context/LanguageContext";
 import { ThemeContext } from "../context/ThemeContext";
 import ProjectModal from "../components/ProjectModal";
@@ -42,7 +43,8 @@ const Portfolio = () => {
       id: 1,
       src: memorygame,
       name: i18n.text(language, i18n.MAP["portfolio-memorygame-name"]),
-      category: "React",
+      category: "Frontend",
+      stack: ["React", "TailwindCSS"],
       title: i18n.text(language, i18n.MAP["portfolio-memorygame"]),
       link: "https://github.com/sz-adam/react-memorygame-tailwindcss",
       demo: "https://sz-adam.github.io/memory-pages/",
@@ -51,7 +53,8 @@ const Portfolio = () => {
       id: 2,
       src: quiz,
       name: i18n.text(language, i18n.MAP["portfolio-quiz-name"]),
-      category: "React",
+      category: "Frontend",
+      stack: ["React", "Scss", "Rest Api", "React Context"],
       title: i18n.text(language, i18n.MAP["portfolio-quiz"]),
       link: "https://github.com/sz-adam/react-quiz",
       demo: "https://sz-adam.github.io/react-quiz-pages/",
@@ -61,7 +64,8 @@ const Portfolio = () => {
       id: 3,
       src: movie,
       name: i18n.text(language, i18n.MAP["portfolio-movie-name"]),
-      category: "React",
+      category: "Frontend",
+      stack: ["React", "Rest Api", "React Context"],
       title: i18n.text(language, i18n.MAP["portfolio-movie"]),
       link: "https://github.com/sz-adam/react-movie-2.0",
       demo: "https://sz-adam.github.io/movie-2.0-pages/",
@@ -70,7 +74,8 @@ const Portfolio = () => {
       id: 4,
       src: angularTodo,
       name: i18n.text(language, i18n.MAP["portfolio-angularTodo-name"]),
-      category: "Angular",
+      category: "Frontend",
+      stack: ["Angular", "PrimeNG"],
       title: i18n.text(language, i18n.MAP["portfolio-angularTodo"]),
       link: "https://github.com/sz-adam/Todo-list-angular-PrimeNg-",
       demo: "https://sz-adam.github.io/angular-todo-pages/",
@@ -80,7 +85,8 @@ const Portfolio = () => {
       id: 5,
       src: angularpokemon,
       name: i18n.text(language, i18n.MAP["portfolio-angularPokemon-name"]),
-      category: "Angular",
+      category: "Frontend",
+      stack: ["Angular", "Rest Api"],
       title: i18n.text(language, i18n.MAP["portfolio-angularPokemon"]),
       link: "https://github.com/sz-adam/angular-pokemon",
       demo: "https://sz-adam.github.io/angular-pokemon-pages/",
@@ -89,7 +95,17 @@ const Portfolio = () => {
       id: 6,
       src: movieNative,
       name: i18n.text(language, i18n.MAP["portfolio-nativeMovie-name"]),
-      category: "React Native",
+      category: "Mobile",
+      stack: [
+        "React-Native",
+        "Expo",
+        "Rest Api",
+        "NativeWind",
+        "Vector Icon",
+        "Reanimated",
+        "Navigation",
+        "React-Context",
+      ],
       title: i18n.text(language, i18n.MAP["portfolio-nativeMovie"]),
       link: "https://github.com/sz-adam/Movie-native",
       demo: "https://www.youtube.com/watch?v=ZSIY7SHp80w",
@@ -99,6 +115,18 @@ const Portfolio = () => {
       src: blog,
       name: "Blog",
       category: "Fullstack",
+      stack: [
+        "React-Node.Js",
+        "Rest Api",
+        "React Context",
+        "TailwindCSS",
+        "Framer Motion",
+        "NodeJs",
+        "ExpressJs",
+        "MongoDB",
+        "JSON Web Tokens",
+        "Bcryptjs",
+      ],
       title: i18n.text(language, i18n.MAP["portfolio-fullstackBlog"]),
       link: "https://github.com/sz-adam/Blog-fullsctack-",
       demo: "https://www.youtube.com/watch?v=-1KRmwhIT5g",
@@ -107,7 +135,8 @@ const Portfolio = () => {
       id: 8,
       src: crypto,
       name: i18n.text(language, i18n.MAP["portfolio-nativeCrypto-name"]),
-      category: "React Native",
+      category: "Mobile",
+      stack: "React-Native",
       title: i18n.text(language, i18n.MAP["portfolio-nativeCrypto"]),
       link: "https://github.com/sz-adam/react-native-cryptoApp/tree/master",
       demo: "https://github.com/sz-adam/react-native-cryptoApp/blob/master/README.md",
@@ -116,16 +145,18 @@ const Portfolio = () => {
       id: 9,
       src: flutterPokemon,
       name: i18n.text(language, i18n.MAP["portfolio-flutterPokemon-name"]),
-      category: "Flutter",
+      category: "Mobile",
+      stack: ["Flutter", "Http", "Riverpood", "Navigation", "Animation"],
       title: i18n.text(language, i18n.MAP["portfolio-flutterPokemon"]),
       link: "https://github.com/sz-adam/pokemon_flutter",
-      demo: "https://github.com/sz-adam/pokemon_flutter",
+      demo: "https://youtube.com/shorts/fKXCqPQCjlw",
     },
     {
       id: 10,
       src: weather,
       name: i18n.text(language, i18n.MAP["portfolio-flutterWeather-name"]),
-      category: "Flutter",
+      category: "Mobile",
+      stack: ["Flutter", "Http", "Dotenv"],
       title: i18n.text(language, i18n.MAP["portfolio-flutterWeather"]),
       link: "https://github.com/sz-adam/weather_flutter",
       demo: "https://github.com/sz-adam/weather_flutter",
@@ -134,7 +165,8 @@ const Portfolio = () => {
       id: 11,
       src: webshop,
       name: i18n.text(language, i18n.MAP["portfolio-webshop-name"]),
-      category: "React",
+      category: "Frontend",
+      stack: ["React", "Rest Api", "Reducer", "React Context", "TailwindCSS"],
       title: i18n.text(language, i18n.MAP["portfolio-webshop"]),
       link: "https://github.com/sz-adam/webshop-react",
       demo: "https://sz-adam.github.io/webshop-react/",
@@ -156,7 +188,8 @@ const Portfolio = () => {
           setFilteredPortfolios={setFilteredPortfolios}
         />
       </div>
-      <div className="w-full h-full p-5  grid gap-6 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 ">
+
+      <div className="w-full h-full p-5 grid gap-6 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
         {filteredPortfolios.map((portfolio) => (
           <AnimatedMotion
             animationName="portfolioAnimations"
@@ -167,16 +200,19 @@ const Portfolio = () => {
               className="mx-auto bg-slate-700 rounded-2xl m-2 w-full h-96"
             >
               <img
-                className="w-full h-3/4 object-cover rounded-t-2xl"
+                className="w-full h-2/3 object-cover rounded-t-2xl"
                 src={portfolio.src}
                 alt="Card image"
               />
-              <div>
-                <h2 className="font-semibold text-xl text-black text-center py-2">
+              <div className="">
+                <h2 className="font-semibold text-xl text-black text-center pt-1.5">
                   {portfolio.name}
                 </h2>
+                <h3 className=" text-center text-gray-400 font-semibold mt-0.5">
+                  # {portfolio.stack[0]}
+                </h3>
               </div>
-              <div className="flex justify-center">
+              <div className="flex justify-center mt-4">
                 <button
                   onClick={() => openModal(portfolio)}
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-2xl p-2 px-8 mx-2"

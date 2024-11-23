@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AnimatedMotion from "../framerMotion/AnimatedMotion";
 
 function Category({ portfolios, setFilteredPortfolios }) {
-  const [selectedCategory, setSelectedCategory] = useState("React");
+  const [selectedCategory, setSelectedCategory] = useState("Frontend");
   const unificationCategories = [
     ...new Set(portfolios.map((portfolio) => portfolio.category)),
   ];
