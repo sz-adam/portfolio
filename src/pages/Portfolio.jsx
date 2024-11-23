@@ -131,18 +131,9 @@ const Portfolio = () => {
       link: "https://github.com/sz-adam/Blog-fullsctack-",
       demo: "https://www.youtube.com/watch?v=-1KRmwhIT5g",
     },
+
     {
       id: 8,
-      src: crypto,
-      name: i18n.text(language, i18n.MAP["portfolio-nativeCrypto-name"]),
-      category: "Mobile",
-      stack: "React-Native",
-      title: i18n.text(language, i18n.MAP["portfolio-nativeCrypto"]),
-      link: "https://github.com/sz-adam/react-native-cryptoApp/tree/master",
-      demo: "https://github.com/sz-adam/react-native-cryptoApp/blob/master/README.md",
-    },
-    {
-      id: 9,
       src: flutterPokemon,
       name: i18n.text(language, i18n.MAP["portfolio-flutterPokemon-name"]),
       category: "Mobile",
@@ -152,7 +143,7 @@ const Portfolio = () => {
       demo: "https://youtube.com/shorts/fKXCqPQCjlw",
     },
     {
-      id: 10,
+      id: 9,
       src: weather,
       name: i18n.text(language, i18n.MAP["portfolio-flutterWeather-name"]),
       category: "Mobile",
@@ -162,7 +153,7 @@ const Portfolio = () => {
       demo: "https://github.com/sz-adam/weather_flutter",
     },
     {
-      id: 11,
+      id: 10,
       src: webshop,
       name: i18n.text(language, i18n.MAP["portfolio-webshop-name"]),
       category: "Frontend",
@@ -170,6 +161,16 @@ const Portfolio = () => {
       title: i18n.text(language, i18n.MAP["portfolio-webshop"]),
       link: "https://github.com/sz-adam/webshop-react",
       demo: "https://sz-adam.github.io/webshop-react/",
+    },
+    {
+      id: 11,
+      src: celestial,
+      name: i18n.text(language, i18n.MAP["portfolio-flutterCelestical-name"]),
+      category: "Mobile",
+      stack: ["Flutter", "Animation"],
+      title: i18n.text(language, i18n.MAP["portfolio-flutterCelestical"]),
+      link: "https://github.com/sz-adam/flutter-exercises/tree/master/planets",
+      demo: "https://youtube.com/shorts/iEXbnxmtVwU",
     },
   ];
 
@@ -182,6 +183,7 @@ const Portfolio = () => {
           </h1>
         </AnimatedMotion>
       </div>
+      
       <div>
         <Category
           portfolios={portfolios}
@@ -209,7 +211,7 @@ const Portfolio = () => {
                   {portfolio.name}
                 </h2>
                 <h3 className=" text-center text-gray-400 font-semibold mt-0.5">
-                  # {portfolio.stack[0]}
+                # {portfolio.stack[0]}
                 </h3>
               </div>
               <div className="flex justify-center mt-4">
@@ -233,6 +235,7 @@ const Portfolio = () => {
         ))}
       </div>
     </div>
+  
   );
 };
 

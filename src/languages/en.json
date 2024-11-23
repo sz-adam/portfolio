@@ -24,24 +24,22 @@
   "portfolio-movie": "Movies/TV shows can be searched using the OMDB API. They can be saved to favorites. More information is displayed in a modal window.",
   "portfolio-angularTodo": "This is an Angular-based TODO-List for which I used PrimeNG.",
   "portfolio-angularPokemon": "This is a pokemon application, it lists 20 pokemons, you can filter them separately by type, and with the help of a pop-up window, it displays even more data about the given pokemon.",
-  "portfolio-nativeCrypto": "An Android crypto application with a welcome screen, a crypto page that operates using APIs. Users can add to favorites, utilizing AsyncStorage. Additionally, there's a page where more information about cryptocurrencies can be read.",
   "portfolio-nativeMovie": "This app uses the OMDb API to fetch movie and series data. You can browse movies and series manually or use the search function. You can also add items to your favorites list, and if you allow notifications, you will receive local notifications. For series, you can see all seasons and view details for each episode.",
   "portfolio-flutterPokemon": "My first Flutter application that uses the PokeAPI. It fetches all Pokémon, displays each in a card format, and navigates to a details screen where more information about the Pokémon is shown. Users can add Pokémon to favorites, and there's a dynamic search feature.",
   "portfolio-flutterWeather": "It starts with a starting screen where you can enter the name of a city. If a valid city name is found during the request, it displays the daily and hourly weather. If nothing is entered, an error is shown and it won't allow you to proceed. If an invalid name is entered, an error message is displayed. A modal window is included if you want to request weather data for another city. The weather icons and background images adapt to the weather conditions. It uses the OpenMeteo api.",
   "portfolio-webshop": "Webshop application built with React + Vite and TypeScript. Tailwind CSS was used for styling. The foundation is the open-source API, FakeStoreAPI. useReducer was used for managing all request states. The website consists of four pages. On the main page, products are displayed in card format. You can add items to favorites, place them in the cart, and filter by category. Additionally, you can navigate to a details page, where more information about the product is available. In the cart, products are displayed individually, allowing you to increase, decrease, or remove the quantity. At checkout, you can enter the DISCOUNT10 promo code to receive a 10% discount.",
-
+  "portfolio-flutterCelestical": "This app, built with Flutter, is a celestial body application. It consists of a main screen and a details page. The primary goal was to practice animations.",
 
   "portfolio-memorygame-name": "Memory Game",
   "portfolio-quiz-name": "Quiz",
   "portfolio-movie-name": "Movie",
   "portfolio-angularTodo-name": "Todo list",
   "portfolio-angularPokemon-name": "Pokemon",
-  "portfolio-nativeCrypto-name": "Crypto",
   "portfolio-flutterPokemon-name": "Pokemon",
   "portfolio-flutterWeather-name": "Weather",
   "portfolio-nativeMovie-name": "Movie",
-  "portfolio-webshop-name":"Webshop",
-
+  "portfolio-webshop-name": "Webshop",
+  "portfolio-flutterCelestical-name": "Celestial bodies",
 
   "skills-title": "I know these technologies.",
 

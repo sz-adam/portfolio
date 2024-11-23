@@ -23,25 +23,23 @@
   "portfolio-movie": "portfolio-movie",
   "portfolio-angularTodo": "portfolio-angularTodo",
   "portfolio-angularPokemon": "portfolio-angularPokemon",
-  "portfolio-nativeCrypto": "portfolio-nativeCrypto",
   "portfolio-nativeMovie": "portfolio-nativeMovie",
   "portfolio-title": "portfolio-title",
-  "portfolio-flutterPokemon":"portfolio-flutterPokemon",
-  "portfolio-flutterWeather":"portfolio-flutterWeather",
+  "portfolio-flutterPokemon": "portfolio-flutterPokemon",
+  "portfolio-flutterWeather": "portfolio-flutterWeather",
   "portfolio-webshop": "portfolio-webshop",
-
+  "portfolio-flutterCelestical": "portfolio-flutterCelestical",
 
   "portfolio-memorygame-name": "portfolio-memorygame-name",
   "portfolio-quiz-name": "portfolio-quiz-name",
   "portfolio-movie-name": "portfolio-movie-name",
   "portfolio-angularTodo-name": "portfolio-angularTodo-name",
   "portfolio-angularPokemon-name": "portfolio-angularPokemon-name",
-  "portfolio-nativeCrypto-name": "portfolio-nativeCrypto-name",
   "portfolio-flutterPokemon-name": "portfolio-flutterPokemon-name",
-  "portfolio-flutterWeather-name":"portfolio-flutterWeather-name",
-  "portfolio-nativeMovie-name":"portfolio-nativeMovie-name",
-   "portfolio-webshop-name":"portfolio-webshop-name",
-
+  "portfolio-flutterWeather-name": "portfolio-flutterWeather-name",
+  "portfolio-nativeMovie-name": "portfolio-nativeMovie-name",
+  "portfolio-webshop-name": "portfolio-webshop-name",
+  "portfolio-flutterCelestical-name": "portfolio-flutterCelestical-name",
 
   "skills-title": "skills-title",
 

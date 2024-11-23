@@ -23,11 +23,11 @@
   "portfolio-movie": "Filme/Serien können mit Hilfe der OMDB-API gesucht werden. Sie können zu Favoriten hinzugefügt werden. Weitere Informationen werden in einem Modal-Fenster angezeigt.",
   "portfolio-angularTodo": "Dies ist eine Angular-basierte TODO-Liste, für die ich PrimeNG verwendet habe.",
   "portfolio-angularPokemon": "Dies ist eine Pokémon-Anwendung, die 20 Pokémon auflistet. Sie können nach ihren Typen filtern und durch ein Popup-Fenster weitere Informationen zu einem bestimmten Pokémon anzeigen.",
-  "portfolio-nativeCrypto": "Eine Android-Krypto-App mit einem Begrüßungsbildschirm, einer Kryptoseite, die APIs verwendet. Benutzer können Favoriten hinzufügen und dabei AsyncStorage nutzen. Zusätzlich gibt es eine Seite, auf der mehr Informationen über Kryptowährungen gelesen werden können. ",
   "portfolio-nativeMovie": "Diese App verwendet die OMDb-API, um Film- und Seriendaten abzurufen. Sie können Filme und Serien manuell durchsuchen oder die Suchfunktion verwenden. Sie können Elemente auch zu Ihrer Favoritenliste hinzufügen. Wenn Sie Benachrichtigungen zulassen, erhalten Sie lokale Benachrichtigungen. Bei Serien können Sie alle Staffeln sehen und Details zu einzelnen Episoden anzeigen.",
   "portfolio-flutterPokemon": "Meine erste Flutter-Anwendung, die die PokeAPI verwendet. Sie ruft alle Pokémon ab, zeigt jedes in einer Kartenansicht an und navigiert zu einem Detailbildschirm, auf dem mehr Informationen über das Pokémon angezeigt werden. Benutzer können Pokémon zu Favoriten hinzufügen, und es gibt eine dynamische Suchfunktion.",
   "portfolio-flutterWeather": "Es beginnt mit einem Startbildschirm, auf dem Sie den Namen der Stadt eingeben können. Wenn bei der Anfrage ein gültiger Stadtname gefunden wird, werden das tägliche und stündliche Wetter angezeigt. Wenn nichts eingegeben wird, erscheint eine Fehlermeldung und eine Fortsetzung ist nicht möglich. Wenn ein ungültiger Name eingegeben wird, erscheint eine Fehlermeldung. Es enthält ein modales Fenster, wenn Sie die Wetterdaten einer anderen Stadt abrufen möchten. Die Wetter-Icons und Hintergrundbilder passen sich den Wetterbedingungen an. Es verwendet die OpenMeteo-API.",
   "portfolio-webshop": "Webshop-Anwendung, die mit React + Vite und TypeScript entwickelt wurde. Für das Styling wurde Tailwind CSS verwendet. Die Grundlage bildet die Open-Source-API FakeStoreAPI. Für das Management aller Anfragen-Stati wurde useReducer verwendet. Die Website besteht aus vier Seiten. Auf der Hauptseite werden die Produkte im Kartenformat angezeigt. Es besteht die Möglichkeit, Artikel zu den Favoriten hinzuzufügen, in den Warenkorb zu legen und nach Kategorien zu filtern. Außerdem kann man zu einer Detailseite navigieren, auf der weitere Informationen zum Produkt verfügbar sind. Im Warenkorb werden die Produkte einzeln angezeigt, wobei du die Menge erhöhen, verringern oder entfernen kannst. Beim Checkout kannst du den Promo-Code „DISCOUNT10“ eingeben, um einen 10% Rabatt zu erhalten.",
+  "portfolio-flutterCelestical":"Diese App, die mit Flutter erstellt wurde, ist eine Anwendung für Himmelskörper. Sie besteht aus einem Hauptbildschirm und einer Detailseite. Das Hauptziel war es, Animationen zu üben.",
 
   "portfolio-memorygame-name": "Memory-Spiel",
   "portfolio-quiz-name": "Quiz",
@@ -38,7 +38,8 @@
   "portfolio-flutterPokemon-name": "Pokemon",
   "portfolio-flutterWeather-name": "Wetter",
   "portfolio-nativeMovie-name": "Film",
-  "portfolio-webshop-name":"Webshop",
+  "portfolio-webshop-name": "Webshop",
+  "portfolio-flutterCelestical-name": "Himmelskörper",
 
   "portfolio-title": "Sieh dir meine Arbeiten an.",
   "skills-title": "Diese Technologien beherrsche ich.",
