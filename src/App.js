@@ -5,7 +5,7 @@ import { useContext } from 'react';
 import { ThemeContext } from './context/ThemeContext';
 import Loading from './pages/Loading'
 import { LanguageContext, LanguageContextDefaults } from './context/LanguageContext';
-import { HashRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Skills from './pages/Skills';
