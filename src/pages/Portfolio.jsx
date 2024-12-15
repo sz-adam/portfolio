@@ -47,7 +47,7 @@ const Portfolio = () => {
       </div>
 
       <div className="w-full h-full p-5 grid gap-6 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-        {filteredPortfolios.map((portfolio) => (
+        {[...filteredPortfolios].reverse().map((portfolio) => (
           <AnimatedMotion
             animationName="portfolioAnimations"
             key={portfolio.id}
