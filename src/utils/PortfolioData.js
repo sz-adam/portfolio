@@ -9,6 +9,7 @@ import weather from "../images/weather.jpg";
 import flutterPokemon from "../images/flutter_favorit.jpg";
 import webshop from "../images/webshop.jpg";
 import celestial from "../images/Celestial_bodies.jpg";
+import tetris from "../images/tetris.jpg";
 
 const i18n = require("./i18n");
 
@@ -145,5 +146,15 @@ export const portfoliosData = (language) => [
     title: i18n.text(language, i18n.MAP["portfolio-flutterCelestical"]),
     link: "https://github.com/sz-adam/flutter-exercises/tree/master/planets",
     demo: "https://youtube.com/shorts/iEXbnxmtVwU",
+  },
+  {
+    id: 12,
+    src: tetris,
+    name: i18n.text(language, i18n.MAP["portfolio-tetris-name"]),
+    category: "Frontend",
+    stack: ["React", "Typescript", "React Context", "TailwindCSS"],
+    title: i18n.text(language, i18n.MAP["portfolio-tetris"]),
+    link: "https://github.com/sz-adam/React-NextJs-exercises/tree/master/tetris-game",
+    demo: "https://sz-adam.github.io/tetris-game/",
   },
 ];

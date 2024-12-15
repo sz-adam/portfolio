@@ -27,7 +27,8 @@
   "portfolio-flutterPokemon": "Meine erste Flutter-Anwendung, die die PokeAPI verwendet. Sie ruft alle Pokémon ab, zeigt jedes in einer Kartenansicht an und navigiert zu einem Detailbildschirm, auf dem mehr Informationen über das Pokémon angezeigt werden. Benutzer können Pokémon zu Favoriten hinzufügen, und es gibt eine dynamische Suchfunktion.",
   "portfolio-flutterWeather": "Es beginnt mit einem Startbildschirm, auf dem Sie den Namen der Stadt eingeben können. Wenn bei der Anfrage ein gültiger Stadtname gefunden wird, werden das tägliche und stündliche Wetter angezeigt. Wenn nichts eingegeben wird, erscheint eine Fehlermeldung und eine Fortsetzung ist nicht möglich. Wenn ein ungültiger Name eingegeben wird, erscheint eine Fehlermeldung. Es enthält ein modales Fenster, wenn Sie die Wetterdaten einer anderen Stadt abrufen möchten. Die Wetter-Icons und Hintergrundbilder passen sich den Wetterbedingungen an. Es verwendet die OpenMeteo-API.",
   "portfolio-webshop": "Webshop-Anwendung, die mit React + Vite und TypeScript entwickelt wurde. Für das Styling wurde Tailwind CSS verwendet. Die Grundlage bildet die Open-Source-API FakeStoreAPI. Für das Management aller Anfragen-Stati wurde useReducer verwendet. Die Website besteht aus vier Seiten. Auf der Hauptseite werden die Produkte im Kartenformat angezeigt. Es besteht die Möglichkeit, Artikel zu den Favoriten hinzuzufügen, in den Warenkorb zu legen und nach Kategorien zu filtern. Außerdem kann man zu einer Detailseite navigieren, auf der weitere Informationen zum Produkt verfügbar sind. Im Warenkorb werden die Produkte einzeln angezeigt, wobei du die Menge erhöhen, verringern oder entfernen kannst. Beim Checkout kannst du den Promo-Code „DISCOUNT10“ eingeben, um einen 10% Rabatt zu erhalten.",
-  "portfolio-flutterCelestical":"Diese App, die mit Flutter erstellt wurde, ist eine Anwendung für Himmelskörper. Sie besteht aus einem Hauptbildschirm und einer Detailseite. Das Hauptziel war es, Animationen zu üben.",
+  "portfolio-flutterCelestical": "Diese App, die mit Flutter erstellt wurde, ist eine Anwendung für Himmelskörper. Sie besteht aus einem Hauptbildschirm und einer Detailseite. Das Hauptziel war es, Animationen zu üben.",
+  "portfolio-tetris": "Tetris-Spiel, bei dem die Formen in zufälligen Farben erscheinen und gedreht werden können. Wenn eine Reihe vollständig gefüllt ist, wird sie gelöscht, und der Spieler erhält Punkte. Wenn der Spieler verliert, erscheint eine Game Over-Nachricht mit der Punktzahl und der Möglichkeit, neu zu starten.",
 
   "portfolio-memorygame-name": "Memory-Spiel",
   "portfolio-quiz-name": "Quiz",
@@ -40,6 +41,7 @@
   "portfolio-nativeMovie-name": "Film",
   "portfolio-webshop-name": "Webshop",
   "portfolio-flutterCelestical-name": "Himmelskörper",
+  "portfolio-tetris-name": "Tetris-Spiel",
 
   "portfolio-title": "Sieh dir meine Arbeiten an.",
   "skills-title": "Diese Technologien beherrsche ich.",

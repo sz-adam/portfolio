@@ -29,6 +29,7 @@
   "portfolio-flutterWeather": "Egy kezdőképernyővel kezdődik, ahol megadhatja a város nevét. Ha a kérés során érvényes városnevet talál, akkor a napi és óránkénti időjárást jeleníti meg. Ha nem ír be semmit, hibaüzenet jelenik meg, és nem teszi lehetővé a folytatást. Ha érvénytelen nevet ad meg, hibaüzenet jelenik meg. Egy modális ablakot tartalmaz, ha egy másik város időjárási adatait szeretné lekérni. Az időjárás ikonok és háttérképek alkalmazkodnak az időjárási viszonyokhoz. OpenMeteo apit használja.",
   "portfolio-webshop": "Webshop alkalmazás, amely React + Vite és TypeScript segítségével készült. Stílusainak kezelésére a Tailwind CSS-t használtam. Nyílt forráskódú API az alapja, a FakeStoreAPI. Az összes kérés állapotkezelésére useReducer-t használtam.A weboldal négy oldalból áll. A főoldalon a termékek kártya formájában jelennek meg. Lehetőség van hozzáadni a kedvencekhez, kosárba helyezni, és kategória alapján szűrni őket. Valamint navigálni lehet a egy részletek oldalra , ahol a termékről több információ szerepel. A kosárban egyesével megjelennek a termékek, ahol az árat lehet növelni, csökkenteni, valamint törölni. A végösszegnél meg lehet adni a „DISCOUNT10” promóciós kódot, amivel 10% kedvezményt biztosít.",
   "portfolio-flutterCelestical": "Flutterben készült égitest alkalmazás. Egy főképernyő és egy részleteket megjelenítő oldalból áll. Leginkább animációk gyakorlása volt a célom vele.",
+  "portfolio-tetris": "Tetris játék, random színben jelennek meg az alakzatok, lehet őket forgatni. Ha egy sor tele lesz, akkor a sor törlődik, és pontjutalmat kap. Ha a játék véget ér, egy Game Over felirat jelenik meg a pontszámmal és egy újrakezdési lehetőséggel.",
 
   "portfolio-memorygame-name": "Memória játék",
   "portfolio-quiz-name": "Kvíz játék",
@@ -38,8 +39,9 @@
   "portfolio-flutterPokemon-name": "Pokemon",
   "portfolio-flutterWeather-name": "Időjárás",
   "portfolio-nativeMovie-name": "Film",
-  "portfolio-webshop-name": "WebÁrúház",
-  "portfolio-flutterCelestical-name": "Celestial bodies",
+  "portfolio-webshop-name": "Webarúház",
+  "portfolio-flutterCelestical-name": "Égitestek",
+  "portfolio-tetris-name": "Tetris játék",
 
   "portfolio-title-name": "portfolio-title-name",
 
