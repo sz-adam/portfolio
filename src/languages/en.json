@@ -30,6 +30,7 @@
   "portfolio-webshop": "Webshop application built with React + Vite and TypeScript. Tailwind CSS was used for styling. The foundation is the open-source API, FakeStoreAPI. useReducer was used for managing all request states. The website consists of four pages. On the main page, products are displayed in card format. You can add items to favorites, place them in the cart, and filter by category. Additionally, you can navigate to a details page, where more information about the product is available. In the cart, products are displayed individually, allowing you to increase, decrease, or remove the quantity. At checkout, you can enter the DISCOUNT10 promo code to receive a 10% discount.",
   "portfolio-flutterCelestical": "This app, built with Flutter, is a celestial body application. It consists of a main screen and a details page. The primary goal was to practice animations.",
   "portfolio-tetris": "Tetris game where shapes appear in random colors and can be rotated. If a row is filled, it is cleared, and the player earns points. If the player loses, a Game Over message appears along with the score and an option to restart.",
+  "portfolio-weather": "A simple weather application that uses the Open-Meteo API to retrieve weather data. The goal of the application is to practice using and integrating Redux and Material UI in a modern React application.",
 
   "portfolio-memorygame-name": "Memory Game",
   "portfolio-quiz-name": "Quiz",
@@ -42,6 +43,7 @@
   "portfolio-webshop-name": "Webshop",
   "portfolio-flutterCelestical-name": "Celestial bodies",
   "portfolio-tetris-name": "Tetris-game",
+  "portfolio-weather-name": "Weather",
 
   "skills-title": "I know these technologies.",
 

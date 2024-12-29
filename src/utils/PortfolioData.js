@@ -10,6 +10,7 @@ import flutterPokemon from "../images/flutter_favorit.jpg";
 import webshop from "../images/webshop.jpg";
 import celestial from "../images/Celestial_bodies.jpg";
 import tetris from "../images/tetris.jpg";
+import react_weather from "../images/react_weather.jpg";
 
 const i18n = require("./i18n");
 
@@ -156,5 +157,15 @@ export const portfoliosData = (language) => [
     title: i18n.text(language, i18n.MAP["portfolio-tetris"]),
     link: "https://github.com/sz-adam/React-NextJs-exercises/tree/master/tetris-game",
     demo: "https://sz-adam.github.io/tetris-game/",
+  },
+  {
+    id: 13,
+    src: react_weather,
+    name: i18n.text(language, i18n.MAP["portfolio-weather-name"]),
+    category: "Frontend",
+    stack: ["React", "Redux", "Axios", "Material Ui"],
+    title: i18n.text(language, i18n.MAP["portfolio-weather"]),
+    link: "https://github.com/sz-adam/weather-react",
+    demo: "https://sz-adam.github.io/weather-react/",
   },
 ];
