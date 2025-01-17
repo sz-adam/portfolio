@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <div id="skills" className="flex flex-col justify-center">
       <div className="text-center text-3xl mb-8">
-        <AnimatedMotion animationName="textAnimation">
+        <AnimatedMotion animationName="homeImageAnimation">
           <p>{i18n.text(language, i18n.MAP["skills-title"])}</p>
         </AnimatedMotion>
       </div>

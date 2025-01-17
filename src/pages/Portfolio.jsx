@@ -32,7 +32,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <div className="text-center">
-        <AnimatedMotion animationName="textAnimation">
+        <AnimatedMotion animationName="homeImageAnimation">
           <h1 className="text-3xl p-4">
             {i18n.text(language, i18n.MAP["portfolio-title"])}
           </h1>

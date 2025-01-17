@@ -27,15 +27,11 @@ const animations = {
     initial: { opacity: 0, x: -150 },
     animate: { opacity: 1, x: 0 },
   },
+
   skillAnimation: {
     initial: { opacity: 0, y: -100 },
     animate: { opacity: 1, y: 0 },
-    transition: { duration: 1.5, type: "spring", stiffness: 300 },
-  },
-  textAnimation: {
-    initial: { opacity: 0, x: -150 },
-    animate: { opacity: 1, x: 0 },
-    transition: { duration: 1 },
+    transition: { duration: 1.5, type: "spring", stiffness: 100 },
   },
   ItemAnimation: {
     whileHover: {
