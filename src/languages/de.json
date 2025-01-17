@@ -18,8 +18,7 @@
   "home-portfolio": "Meine Arbeiten",
 
   "portfolio-fullstackBlog": "ich habe den Node.js API Project: Build a Blog Project API 2023-Kurs auf Udemy abgeschlossen. Ich erweitere ihn kontinuierlich um zusätzliche Funktionen und arbeite auch am Frontend. Derzeit umfassen die Funktionen die Registrierung, Anmeldung, das Schreiben und Bearbeiten von Beiträgen, das Liken von Beiträgen sowie das Schreiben und Bearbeiten von Kommentaren. Benutzer können das Profil des Autors anzeigen, wo sie den Benutzer mögen oder blockieren können, und der Autor kann sehen, wer sein Profil angesehen hat. Benutzer können auch ihr eigenes Profil überprüfen, um zu verfolgen, wen sie mögen oder blockiert haben. Es gibt einen Änderungsreiter, auf dem Benutzer ihr Profilbild, den Vornamen, den Nachnamen und das Passwort ändern können. Es gibt die Möglichkeit, das Benutzerprofil zu löschen. Es steht eine Admin-Schnittstelle zur Verfügung, auf der alle Benutzer angezeigt und vom Administrator blockiert werden können. In diesem Fall kann der blockierte Benutzer keine Beiträge erstellen.Ein blockierter Benutzer kann eine Nachricht an den Administrator senden. Außerdem wurde ein Dunkelmodus hinzugefügt. Videodemonstration verfügbar.",
-  "portfolio-memorygame": "Dies ist ein einfaches Memory-Spiel. Es wählt zufällig sechs von 18 Bildern für das Spiel aus.",
-  "portfolio-quiz": "Dies ist ein Quiz-Spiel mit der Verwendung der opentdb API. Am Ende der Fragen werden die richtigen und falschen Antworten angezeigt.",
+
   "portfolio-movie": "Filme/Serien können mit Hilfe der OMDB-API gesucht werden. Sie können zu Favoriten hinzugefügt werden. Weitere Informationen werden in einem Modal-Fenster angezeigt.",
   "portfolio-angularTodo": "Dies ist eine Angular-basierte TODO-Liste, für die ich PrimeNG verwendet habe.",
   "portfolio-angularPokemon": "Dies ist eine Pokémon-Anwendung, die 20 Pokémon auflistet. Sie können nach ihren Typen filtern und durch ein Popup-Fenster weitere Informationen zu einem bestimmten Pokémon anzeigen.",
@@ -30,6 +29,7 @@
   "portfolio-flutterCelestical": "Diese App, die mit Flutter erstellt wurde, ist eine Anwendung für Himmelskörper. Sie besteht aus einem Hauptbildschirm und einer Detailseite. Das Hauptziel war es, Animationen zu üben.",
   "portfolio-tetris": "Tetris-Spiel, bei dem die Formen in zufälligen Farben erscheinen und gedreht werden können. Wenn eine Reihe vollständig gefüllt ist, wird sie gelöscht, und der Spieler erhält Punkte. Wenn der Spieler verliert, erscheint eine Game Over-Nachricht mit der Punktzahl und der Möglichkeit, neu zu starten.",
   "portfolio-weather": "Eine einfache Wetteranwendung, die die Open-Meteo API verwendet, um Wetterdaten abzurufen. Ziel der Anwendung ist es, den Einsatz und die Integration von Redux und Material UI in einer modernen React-Anwendung zu üben.",
+  "portfolio-todoList": "Eine Fullstack-Todo-Anwendung, die das Ausführen von CRUD-Operationen ermöglicht. Ziel war die Nutzung und Integration von Prisma ORM und MySQL im Backend sowie ShadCN UI im Frontend.",
 
   "portfolio-memorygame-name": "Memory-Spiel",
   "portfolio-quiz-name": "Quiz",
@@ -44,6 +44,7 @@
   "portfolio-flutterCelestical-name": "Himmelskörper",
   "portfolio-tetris-name": "Tetris-Spiel",
   "portfolio-weather-name": "Wetter",
+  "portfolio-todoList-name": "Todo List",
 
   "portfolio-title": "Sieh dir meine Arbeiten an.",
   "skills-title": "Diese Technologien beherrsche ich.",

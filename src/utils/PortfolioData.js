@@ -1,8 +1,6 @@
-import memorygame from "../images/memorygame.jpg";
 import angularTodo from "../images/angular-todo.jpg";
 import angularpokemon from "../images/pokemon.png";
 import quiz from "../images/quiz.png";
-import movie from "../images/movie.png";
 import blog from "../images/blog-app.png";
 import movieNative from "../images/movie-native.png";
 import weather from "../images/weather.jpg";
@@ -11,20 +9,11 @@ import webshop from "../images/webshop.jpg";
 import celestial from "../images/Celestial_bodies.jpg";
 import tetris from "../images/tetris.jpg";
 import react_weather from "../images/react_weather.jpg";
+import todo_list from "../images/todoList.png";
 
 const i18n = require("./i18n");
 
 export const portfoliosData = (language) => [
-  {
-    id: 1,
-    src: memorygame,
-    name: i18n.text(language, i18n.MAP["portfolio-memorygame-name"]),
-    category: "Frontend",
-    stack: ["React", "TailwindCSS"],
-    title: i18n.text(language, i18n.MAP["portfolio-memorygame"]),
-    link: "https://github.com/sz-adam/react-memorygame-tailwindcss",
-    demo: "https://sz-adam.github.io/memory-pages/",
-  },
   {
     id: 2,
     src: quiz,
@@ -34,17 +23,6 @@ export const portfoliosData = (language) => [
     title: i18n.text(language, i18n.MAP["portfolio-quiz"]),
     link: "https://github.com/sz-adam/react-quiz",
     demo: "https://sz-adam.github.io/react-quiz-pages/",
-  },
-
-  {
-    id: 3,
-    src: movie,
-    name: i18n.text(language, i18n.MAP["portfolio-movie-name"]),
-    category: "Frontend",
-    stack: ["React", "Rest Api", "React Context"],
-    title: i18n.text(language, i18n.MAP["portfolio-movie"]),
-    link: "https://github.com/sz-adam/react-movie-2.0",
-    demo: "https://sz-adam.github.io/movie-2.0-pages/",
   },
   {
     id: 4,
@@ -167,5 +145,24 @@ export const portfoliosData = (language) => [
     title: i18n.text(language, i18n.MAP["portfolio-weather"]),
     link: "https://github.com/sz-adam/weather-react",
     demo: "https://sz-adam.github.io/weather-react/",
+  },
+  {
+    id: 14,
+    src: todo_list,
+    name: i18n.text(language, i18n.MAP["portfolio-todoList-name"]),
+    category: "Fullstack",
+    stack: [
+      "React-Node.Js",
+      "Context",
+      "Axios",
+      "ShadCN",
+      "NodeJs",
+      "ExpressJS",
+      "Prisma",
+      "MySQL",
+    ],
+    title: i18n.text(language, i18n.MAP["portfolio-todoList"]),
+    link: "https://github.com/sz-adam/React-NextJs-exercises/tree/master/Todo_FullStack",
+    demo: "https://www.youtube.com/watch?v=yJRnoz0W6EU",
   },
 ];

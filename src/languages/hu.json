@@ -19,9 +19,8 @@
   "portfolio-title": "Nézd meg a munkáimat.",
 
   "portfolio-fullstackBlog": "Elvégeztem Udemy-n a Nodejs API Project: Build a Blog Project API 2023 képzést , folyamatosan egészítem ki plusz funkciókkal és készítem hozzá a Frontendet is. Jelenleg: Regisztráció, bejelentkezés, poszt írása , módosítása, kedvelése.  Comment írása , módosítása. Szerző profiljának megtekintése ahol lehet kedvelni illetve blokkolni a felhasználót , illetve a szerző látja , hogy ki nézte meg a profilját. Saját profil megnézése ahol nyomon lehet követni, hogy kiket kedveltünk vagy blokkoltuk. Van egy módosítás füll ahol lehet a profilképet, kereszt és a vezetéknevet valamint jelszót változtatni. Lehetőség van a felhasználói profil törlésére. Van egy admin felület, ahol az összes felhasználót az adott adminisztrátor megtekintheti és blokkolhatja. Ebben az esetben a felhasználó nem tud posztot létrehozni. Blokkolt felhasználó egy üzenetet tud írni az adminisztrátornak. Továbbá kiegészült egy sötét móddal is.  Videó bemutató elérhető.",
-  "portfolio-memorygame": "Ez egy egyszerű memória játék. 18 képből választ véletlenszerűen hat darabot a játékhoz.",
+
   "portfolio-quiz": "Ez egy Quiz játék opentdb api használatával. A kérdések végén a helyes és helytelen válaszokat megjeleníti.",
-  "portfolio-movie": "Filmeket/sorozatokat lehet keresni az omdb api használatával. Kedvencek közé lehet menteni. Modal ablakban több információt jelenít meg.",
   "portfolio-angularTodo": "Ez egy Angular alapú TODO-List amihez PrimeNG-t használtam.",
   "portfolio-angularPokemon": "Ez egy pokemon alkalmazás, 20 db pokemont listáz ki, a típusaira külön lehet szűrni és egy felugró ablak segítségével még több adatot jelenít meg az adott pokemonról.",
   "portfolio-nativeMovie": "Ez az alkalmazás az OMDb API-t használja a filmek és sorozatok adatainak lekéréséhez. Manuálisan böngészhet filmek és sorozatok között, vagy használhatja a kereső funkciót. A kedvencek listájához is hozzáadhat elemeket, és ha engedélyezi az értesítéseket, helyi értesítéseket fog kapni. A sorozatok esetében megtekintheti az összes évadot, és megtekintheti az egyes epizódok részleteit.",
@@ -30,9 +29,9 @@
   "portfolio-webshop": "Webshop alkalmazás, amely React + Vite és TypeScript segítségével készült. Stílusainak kezelésére a Tailwind CSS-t használtam. Nyílt forráskódú API az alapja, a FakeStoreAPI. Az összes kérés állapotkezelésére useReducer-t használtam.A weboldal négy oldalból áll. A főoldalon a termékek kártya formájában jelennek meg. Lehetőség van hozzáadni a kedvencekhez, kosárba helyezni, és kategória alapján szűrni őket. Valamint navigálni lehet a egy részletek oldalra , ahol a termékről több információ szerepel. A kosárban egyesével megjelennek a termékek, ahol az árat lehet növelni, csökkenteni, valamint törölni. A végösszegnél meg lehet adni a „DISCOUNT10” promóciós kódot, amivel 10% kedvezményt biztosít.",
   "portfolio-flutterCelestical": "Flutterben készült égitest alkalmazás. Egy főképernyő és egy részleteket megjelenítő oldalból áll. Leginkább animációk gyakorlása volt a célom vele.",
   "portfolio-tetris": "Tetris játék, random színben jelennek meg az alakzatok, lehet őket forgatni. Ha egy sor tele lesz, akkor a sor törlődik, és pontjutalmat kap. Ha a játék véget ér, egy Game Over felirat jelenik meg a pontszámmal és egy újrakezdési lehetőséggel.",
-   "portfolio-weather":"Egyszerű időjárás alkalmazás, amely a Open-Meteo API-t használja az időjárási adatok lekéréséhez. Az alkalmazás célja a Redux és a Material UI használatának és integrációjának gyakorlása egy modern React alkalmazásban.",
-  
-  
+  "portfolio-weather": "Egyszerű időjárás alkalmazás, amely a Open-Meteo API-t használja az időjárási adatok lekéréséhez. Az alkalmazás célja a Redux és a Material UI használatának és integrációjának gyakorlása egy modern React alkalmazásban.",
+  "portfolio-todoList": "Egy fullstack todo alkalmazás, amely lehetővé teszi a CRUD műveletek végrehajtását.  Backenden a Prisma ORM és MySql , Frontenden a ShadCN ui használata és integrációja volt a cél.    ",
+
   "portfolio-memorygame-name": "Memória játék",
   "portfolio-quiz-name": "Kvíz játék",
   "portfolio-movie-name": "Film",
@@ -44,7 +43,8 @@
   "portfolio-webshop-name": "Webarúház",
   "portfolio-flutterCelestical-name": "Égitestek",
   "portfolio-tetris-name": "Tetris játék",
-  "portfolio-weather-name":"Időjárás",
+  "portfolio-weather-name": "Időjárás",
+  "portfolio-todoList-name": "Teendő lista",
 
   "portfolio-title-name": "portfolio-title-name",
 

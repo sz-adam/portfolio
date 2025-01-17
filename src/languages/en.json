@@ -19,9 +19,8 @@
   "portfolio-title": "Check out my works.",
 
   "portfolio-fullstackBlog": "I have completed the Node.js API Project: Build a Blog Project API 2023 course on Udemy. I am continuously enhancing it with additional features and also working on the frontend. Currently, the functionalities include registration, login, writing and editing posts, liking posts, writing and editing comments. Users can view the author's profile, where they can like or block the user, and the author can see who has viewed their profile. Users can also check their own profile to track who they have liked or blocked. There is a modification tab where users can change their profile picture, first name, last name, and password. There is an option to delete the user profile. An admin interface is available to view all users and can be used by the administrator to block users. In this case, the blocked user won't be able to create posts. Blocked user can send a message to the administrator. Additionally, a dark mode has been added. Video demonstration available.",
-  "portfolio-memorygame": "This is a simple memory game. It randomly selects six out of eighteen images for the game.",
+  
   "portfolio-quiz": "This is a Quiz game using opentdb api. At the end of the questions, it displays the correct and incorrect answers.",
-  "portfolio-movie": "Movies/TV shows can be searched using the OMDB API. They can be saved to favorites. More information is displayed in a modal window.",
   "portfolio-angularTodo": "This is an Angular-based TODO-List for which I used PrimeNG.",
   "portfolio-angularPokemon": "This is a pokemon application, it lists 20 pokemons, you can filter them separately by type, and with the help of a pop-up window, it displays even more data about the given pokemon.",
   "portfolio-nativeMovie": "This app uses the OMDb API to fetch movie and series data. You can browse movies and series manually or use the search function. You can also add items to your favorites list, and if you allow notifications, you will receive local notifications. For series, you can see all seasons and view details for each episode.",
@@ -31,6 +30,8 @@
   "portfolio-flutterCelestical": "This app, built with Flutter, is a celestial body application. It consists of a main screen and a details page. The primary goal was to practice animations.",
   "portfolio-tetris": "Tetris game where shapes appear in random colors and can be rotated. If a row is filled, it is cleared, and the player earns points. If the player loses, a Game Over message appears along with the score and an option to restart.",
   "portfolio-weather": "A simple weather application that uses the Open-Meteo API to retrieve weather data. The goal of the application is to practice using and integrating Redux and Material UI in a modern React application.",
+  "portfolio-todoList":"A fullstack todo application that allows performing CRUD operations. The goal was to use and integrate Prisma ORM and MySQL on the backend, and ShadCN UI on the frontend.",
+
 
   "portfolio-memorygame-name": "Memory Game",
   "portfolio-quiz-name": "Quiz",
@@ -44,6 +45,7 @@
   "portfolio-flutterCelestical-name": "Celestial bodies",
   "portfolio-tetris-name": "Tetris-game",
   "portfolio-weather-name": "Weather",
+  "portfolio-todoList-name":"Todo List",
 
   "skills-title": "I know these technologies.",
 

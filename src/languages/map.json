@@ -18,9 +18,7 @@
   "home-portfolio": "home-portfolio",
 
   "portfolio-fullstackBlog": "portfolio-fullstackBlog",
-  "portfolio-memorygame": "portfolio-memorygame",
   "portfolio-quiz": "portfolio-quiz",
-  "portfolio-movie": "portfolio-movie",
   "portfolio-angularTodo": "portfolio-angularTodo",
   "portfolio-angularPokemon": "portfolio-angularPokemon",
   "portfolio-nativeMovie": "portfolio-nativeMovie",
@@ -31,10 +29,9 @@
   "portfolio-flutterCelestical": "portfolio-flutterCelestical",
   "portfolio-tetris": "portfolio-tetris",
   "portfolio-weather": "portfolio-weather",
+  "portfolio-todoList": "portfolio-todoList",
 
-  "portfolio-memorygame-name": "portfolio-memorygame-name",
   "portfolio-quiz-name": "portfolio-quiz-name",
-  "portfolio-movie-name": "portfolio-movie-name",
   "portfolio-angularTodo-name": "portfolio-angularTodo-name",
   "portfolio-angularPokemon-name": "portfolio-angularPokemon-name",
   "portfolio-flutterPokemon-name": "portfolio-flutterPokemon-name",
@@ -44,6 +41,7 @@
   "portfolio-flutterCelestical-name": "portfolio-flutterCelestical-name",
   "portfolio-tetris-name": "portfolio-tetris-name",
   "portfolio-weather-name": "portfolio-weather-name",
+  "portfolio-todoList-name": "portfolio-todoList-name",
 
   "skills-title": "skills-title",
 
