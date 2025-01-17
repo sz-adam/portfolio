@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.42ab5d3f.css",
-    "main.js": "/portfolio/static/js/main.98853c77.js",
-    "static/media/movie.png": "/portfolio/static/media/movie.11d16bf9e41a6b466911.png",
+    "main.js": "/portfolio/static/js/main.a2f4ff3e.js",
     "static/media/blog-app.png": "/portfolio/static/media/blog-app.c8d150956d05e1cdb7fd.png",
     "static/media/me44.png": "/portfolio/static/media/me44.00b97300889b34432532.png",
     "static/media/movie-native.png": "/portfolio/static/media/movie-native.8300d61e0461e93c0714.png",
@@ -14,8 +13,8 @@
     "static/media/react-native.png": "/portfolio/static/media/react-native.8a326da488f950bfcbfb.png",
     "static/media/angular.png": "/portfolio/static/media/angular.2a94d7a4ed5d0938f132.png",
     "static/media/weather.jpg": "/portfolio/static/media/weather.c65058b821062a03bdc0.jpg",
+    "static/media/todoList.png": "/portfolio/static/media/todoList.35b863200c79309645fd.png",
     "static/media/scss.png": "/portfolio/static/media/scss.83e62f8d567b6c2c1df5.png",
-    "static/media/memorygame.jpg": "/portfolio/static/media/memorygame.10ed648cc6086cc9dd07.jpg",
     "static/media/Celestial_bodies.jpg": "/portfolio/static/media/Celestial_bodies.c72f34d65e022b015bd9.jpg",
     "static/media/tetris.jpg": "/portfolio/static/media/tetris.81ffa02b940acf0dcd12.jpg",
     "static/media/flutter_favorit.jpg": "/portfolio/static/media/flutter_favorit.3aff209f500297616896.jpg",
@@ -32,10 +31,10 @@
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.99e0b6fdb08924dd678c.png",
     "index.html": "/portfolio/index.html",
     "main.42ab5d3f.css.map": "/portfolio/static/css/main.42ab5d3f.css.map",
-    "main.98853c77.js.map": "/portfolio/static/js/main.98853c77.js.map"
+    "main.a2f4ff3e.js.map": "/portfolio/static/js/main.a2f4ff3e.js.map"
   },
   "entrypoints": [
     "static/css/main.42ab5d3f.css",
-    "static/js/main.98853c77.js"
+    "static/js/main.a2f4ff3e.js"
   ]
 }
