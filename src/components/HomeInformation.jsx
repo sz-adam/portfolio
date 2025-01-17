@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import { ThemeContext } from "../context/ThemeContext";
 import { LanguageContext } from "../context/LanguageContext";
 import AnimatedMotion from "../framerMotion/AnimatedMotion";
 import { AiOutlineMail } from "react-icons/ai";
@@ -10,15 +9,12 @@ import { FcSettings } from "react-icons/fc";
 import { AnimatePresence } from "framer-motion";
 
 import Avatar from "./Avatar";
+import Availability from "./Availability";
 const i18n = require("../utils/i18n");
 
 const HomeInformation = () => {
   const { language } = useContext(LanguageContext);
-  const { selectedTheme } = useContext(ThemeContext);
-  const { boxShadow } = selectedTheme; 
   const [isOpen, setIsOpen] = useState(false);
-
-
 
   return (
     <AnimatedMotion animationName="homeImageAnimation">
@@ -33,7 +29,7 @@ const HomeInformation = () => {
         </AnimatePresence>
       </div>
       <div className="flex flex-col ">
-       <Avatar />
+        <Avatar />
         <div className="text-center p-5 ">
           <h1 className="text-4xl p-1 ">
             {i18n.text(language, i18n.MAP["about-name"])}
@@ -45,33 +41,21 @@ const HomeInformation = () => {
 
         {/**link */}
         <div>
-          <div className="p-3 ">
-            <a
-              href="https://github.com/sz-adam"
-              className="flex items-center text-center"
-            >
-              <BsGithub className="text-xl animate-bounce" />
-              <span className="ml-4">Github</span>
-            </a>
-          </div>
-          <div className="p-3">
-            <a
-              href="mailto:szaboadam255@gmail.com"
-              className="flex items-center text-center"
-            >
-              <AiOutlineMail className="text-xl animate-bounce" />
-              <span className="ml-4 ">szaboadam255@gmail.com</span>
-            </a>
-          </div>
-          <div className="p-3">
-            <a
-              href="https://www.linkedin.com/in/%C3%A1d%C3%A1m-szab%C3%B3-06733527a/"
-              className="flex  items-center text-center"
-            >
-              <BsLinkedin className="text-xl animate-bounce" />
-              <span className="ml-4">Linkedin</span>
-            </a>
-          </div>
+          <Availability
+            link="https://github.com/sz-adam"
+            icon={BsGithub}
+            name="Github"
+          />
+          <Availability
+            link="mailto:szaboadam255@gmail.com"
+            icon={AiOutlineMail}
+            name="szaboadam255@gmail.com"
+          />
+          <Availability
+            link="https://www.linkedin.com/in/%C3%A1d%C3%A1m-szab%C3%B3-06733527a/"
+            icon={BsLinkedin}
+            name="LinkedIn"
+          />
         </div>
       </div>
     </AnimatedMotion>
