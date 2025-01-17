@@ -26,22 +26,6 @@ const animations = {
   homeH1Animation: {
     initial: { opacity: 0, x: -150 },
     animate: { opacity: 1, x: 0 },
-    transition: { duration: 1.3 },
-  },
-  homeH3Animation: {
-    initial: { opacity: 0, x: -150 },
-    animate: { opacity: 1, x: 0 },
-    transition: { delay: 1, duration: 1.2 },
-  },
-  homePAnimation: {
-    initial: { opacity: 0, x: -150 },
-    animate: { opacity: 1, x: 0 },
-    transition: { delay: 2, duration: 1 },
-  },
-  homeButtonAnimation: {
-    initial: { opacity: 0, x: -150 },
-    animate: { opacity: 1, x: 0 },
-    transition: { delay: 3, duration: 1 },
   },
   skillAnimation: {
     initial: { opacity: 0, y: -100 },
@@ -75,7 +59,7 @@ const animations = {
   },
 };
 
-const AnimatedMotion = ({ animationName, children, className, style }) => {
+const AnimatedMotion = ({ animationName, children, className, style,transition }) => {
   const animation = animations[animationName];
 
   return (
@@ -83,7 +67,7 @@ const AnimatedMotion = ({ animationName, children, className, style }) => {
       initial={animation.initial}
       animate={animation.animate}
       exit={animation.exit}
-      transition={animation.transition}
+      transition={transition || animation.transition}
       variants={animation.variants}
       whileHover={animation.whileHover}
       className={className}
