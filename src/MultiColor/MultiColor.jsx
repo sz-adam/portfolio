@@ -1,13 +1,25 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 
 const ThemeSelector = () => {
   const { changedColor } = useContext(ThemeContext);
 
   const themeOptions = [
-    { color: 'black', className: "p-[15px] rounded-[50%] border-2 border-solid border-[rgb(131,131,131)] bg-[#0C1C29]" },
-    { color: 'blue', className: "p-[15px] rounded-[50%] border-2 border-solid border-[rgb(131,131,131)] bg-[#006B7F]" },
-    { color: 'green', className: "p-[15px] rounded-[50%] border-2 border-solid border-[rgb(131,131,131)] bg-[#369090]" },
+    {
+      color: "black",
+      className:
+        "p-[15px] rounded-[50%] border-2 border-solid border-[rgb(131,131,131)] bg-[#0C1C29]",
+    },
+    {
+      color: "blue",
+      className:
+        "p-[15px] rounded-[50%] border-2 border-solid border-[rgb(131,131,131)] bg-[#006B7F]",
+    },
+    {
+      color: "green",
+      className:
+        "p-[15px] rounded-[50%] border-2 border-solid border-[rgb(131,131,131)] bg-[#369090]",
+    },
   ];
 
   return (
@@ -23,7 +35,6 @@ const ThemeSelector = () => {
         </div>
       ))}
     </div>
-
   );
 };
 

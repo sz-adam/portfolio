@@ -59,14 +59,14 @@ const Portfolio = () => {
               <img
                 className="w-full h-2/3 object-cover rounded-t-2xl"
                 src={portfolio.src}
-                alt="Card image"
+                alt=""
               />
               <div className="">
                 <h2 className="font-semibold text-xl text-black text-center pt-1.5">
                   {portfolio.name}
                 </h2>
                 <h3 className=" text-center text-gray-400 font-semibold mt-0.5">
-                  # {portfolio.stack[0]}
+                  #{portfolio.stack[0]}
                 </h3>
               </div>
               <div className="flex justify-center mt-4">

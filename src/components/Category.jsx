@@ -7,12 +7,12 @@ function Category({ portfolios, setFilteredPortfolios }) {
     ...new Set(portfolios.map((portfolio) => portfolio.category)),
   ];
 
-  useEffect(() => {
-    const filtered = portfolios.filter(
-      (portfolio) => portfolio.category === selectedCategory
-    );
-    setFilteredPortfolios(filtered);
-  }, [selectedCategory]);
+   useEffect(() => {
+     const filtered = portfolios.filter(
+       (portfolio) => portfolio.category === selectedCategory
+     );
+     setFilteredPortfolios(filtered);
+   }, [selectedCategory, portfolios, setFilteredPortfolios]);
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
