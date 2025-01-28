@@ -12,7 +12,7 @@ function Category({ portfolios, setFilteredPortfolios }) {
        (portfolio) => portfolio.category === selectedCategory
      );
      setFilteredPortfolios(filtered);
-   }, [selectedCategory, portfolios, setFilteredPortfolios]);
+   }, [selectedCategory, setFilteredPortfolios]);
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
