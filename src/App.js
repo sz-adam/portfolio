@@ -44,11 +44,17 @@ function App() {
           <Router>
             <div className="w-full h-screen flex flex-col lg:flex-row justify-around items-center max-lg:h-full p-5">
               {/* information */}
-              <div style={{ boxShadow: boxShadow }} className="w-[25%] h-[80%] rounded-2xl max-lg:w-full max-lg:h-full max-lg:mb-10">
+              <div
+                style={{ boxShadow: boxShadow }}
+                className="w-[25%] h-[80%] rounded-2xl max-lg:w-full max-lg:h-full max-lg:mb-10 overflow-auto  scrollbar scrollbar-thumb-green-500"
+              >
                 <HomeInformation />
               </div>
               {/* about */}
-              <div style={{ boxShadow: boxShadow }} className="w-[70%] h-[80%] max-lg:h-full rounded-2xl overflow-auto max-lg:w-full max-lg:pt-10  scrollbar scrollbar-thumb-green-500 ">
+              <div
+                style={{ boxShadow: boxShadow }}
+                className="w-[70%] h-[80%] max-lg:h-full rounded-2xl overflow-auto max-lg:w-full max-lg:pt-10  scrollbar scrollbar-thumb-green-500 "
+              >
                 <Navbar />
                 <Routes>
                   <Route path="/" element={<About />} />

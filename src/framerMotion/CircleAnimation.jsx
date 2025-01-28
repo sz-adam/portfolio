@@ -6,7 +6,7 @@ const CircleAnimation = ({ strokeColor }) => {
     <motion.svg
       className="absolute top-0 left-0 w-full h-full"
       fill="transparent"
-      viewBox="2 -3 506 506"
+      viewBox="2 -5 506 506"
     >
       <motion.circle
         cx="255"
