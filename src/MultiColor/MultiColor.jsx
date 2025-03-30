@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 
-const ThemeSelector = () => {
+const ThemeSelector = ({ setIsOpen }) => {
   const { changedColor } = useContext(ThemeContext);
 
   const themeOptions = [
@@ -30,6 +30,7 @@ const ThemeSelector = () => {
             className={option.className}
             onClick={() => {
               changedColor(option.color);
+              setIsOpen(false)
             }}
           ></div>
         </div>
