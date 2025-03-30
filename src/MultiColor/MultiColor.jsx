@@ -18,7 +18,7 @@ const ThemeSelector = () => {
     {
       color: "green",
       className:
-        "p-[15px] rounded-[50%] border-2 border-solid border-[rgb(131,131,131)] bg-[#369090]",
+        "p-[15px] rounded-[50%] border-2 border-solid border-[rgb(131,131,131)] bg-[#1E1B18]",
     },
   ];
 
