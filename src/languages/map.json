@@ -30,6 +30,7 @@
   "portfolio-tetris": "portfolio-tetris",
   "portfolio-weather": "portfolio-weather",
   "portfolio-todoList": "portfolio-todoList",
+  "portfolio-habit": "portfolio-habit",
 
   "portfolio-quiz-name": "portfolio-quiz-name",
   "portfolio-angularTodo-name": "portfolio-angularTodo-name",
@@ -42,6 +43,7 @@
   "portfolio-tetris-name": "portfolio-tetris-name",
   "portfolio-weather-name": "portfolio-weather-name",
   "portfolio-todoList-name": "portfolio-todoList-name",
+  "portfolio-habit-name": "portfolio-habit-name",
 
   "skills-title": "skills-title",
 

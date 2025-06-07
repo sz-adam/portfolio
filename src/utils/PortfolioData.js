@@ -10,6 +10,7 @@ import celestial from "../images/Celestial_bodies.jpg";
 import tetris from "../images/tetris.jpg";
 import react_weather from "../images/react_weather.jpg";
 import todo_list from "../images/todoList.png";
+import habit from "../images/habit.jpg";
 
 const i18n = require("./i18n");
 
@@ -164,5 +165,23 @@ export const portfoliosData = (language) => [
     title: i18n.text(language, i18n.MAP["portfolio-todoList"]),
     link: "https://github.com/sz-adam/React-NextJs-exercises/tree/master/Todo_FullStack",
     demo: "https://www.youtube.com/watch?v=yJRnoz0W6EU",
+  },
+  {
+    id: 15,
+    src: habit,
+    name: i18n.text(language, i18n.MAP["portfolio-habit-name"]),
+    category: "Mobile",
+    stack: [
+      "Flutter",
+      "Navigation",
+      "Table Calendar",
+      "Riverpod",
+      "Hive",
+      "Color Picker",
+      "Icon Picker",
+    ],
+    title: i18n.text(language, i18n.MAP["portfolio-habit"]),
+    link: "https://github.com/sz-adam/habit_tracker",
+    demo: "https://www.youtube.com/shorts/AywiHAw8sIc",
   },
 ];

@@ -30,6 +30,7 @@
   "portfolio-tetris": "Tetris-Spiel, bei dem die Formen in zufälligen Farben erscheinen und gedreht werden können. Wenn eine Reihe vollständig gefüllt ist, wird sie gelöscht, und der Spieler erhält Punkte. Wenn der Spieler verliert, erscheint eine Game Over-Nachricht mit der Punktzahl und der Möglichkeit, neu zu starten.",
   "portfolio-weather": "Eine einfache Wetteranwendung, die die Open-Meteo API verwendet, um Wetterdaten abzurufen. Ziel der Anwendung ist es, den Einsatz und die Integration von Redux und Material UI in einer modernen React-Anwendung zu üben.",
   "portfolio-todoList": "Eine Fullstack-Todo-Anwendung, die das Ausführen von CRUD-Operationen ermöglicht. Ziel war die Nutzung und Integration von Prisma ORM und MySQL im Backend sowie ShadCN UI im Frontend.",
+  "portfolio-habit": "Gewohnheitstracker-App, in der du im Einstellungsbereich deinen Namen und das Thema speichern kannst. Beim Hinzufügen einer Gewohnheit kannst du Titel, Beschreibung, Datum, Farbe und Icon hinzufügen. Außerdem kannst du eine tägliche Wiederholung und Dauer auswählen.",
 
   "portfolio-memorygame-name": "Memory-Spiel",
   "portfolio-quiz-name": "Quiz",
@@ -45,6 +46,7 @@
   "portfolio-tetris-name": "Tetris-Spiel",
   "portfolio-weather-name": "Wetter",
   "portfolio-todoList-name": "Todo List",
+  "portfolio-habit-name": "Gewohnheits-Tracker",
 
   "portfolio-title": "Sieh dir meine Arbeiten an.",
   "skills-title": "Diese Technologien beherrsche ich.",
