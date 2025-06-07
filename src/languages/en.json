@@ -31,7 +31,7 @@
   "portfolio-tetris": "Tetris game where shapes appear in random colors and can be rotated. If a row is filled, it is cleared, and the player earns points. If the player loses, a Game Over message appears along with the score and an option to restart.",
   "portfolio-weather": "A simple weather application that uses the Open-Meteo API to retrieve weather data. The goal of the application is to practice using and integrating Redux and Material UI in a modern React application.",
   "portfolio-todoList":"A fullstack todo application that allows performing CRUD operations. The goal was to use and integrate Prisma ORM and MySQL on the backend, and ShadCN UI on the frontend.",
-  "portfolio-habit":"Habit tracker app where you can save your name and theme in the settings. When adding a habit, you can add a title, description, date, level, and icon. Additionally, you can select daily repetition and duration.",
+  "portfolio-habit":"Habit tracker app where you can save your name and theme in the settings. When adding a habit, you can add a title, description, date, color, and icon. Additionally, you can select daily repetition and duration.",
 
 
   "portfolio-memorygame-name": "Memory Game",

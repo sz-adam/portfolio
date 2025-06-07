@@ -31,7 +31,7 @@
   "portfolio-tetris": "Tetris játék, random színben jelennek meg az alakzatok, lehet őket forgatni. Ha egy sor tele lesz, akkor a sor törlődik, és pontjutalmat kap. Ha a játék véget ér, egy Game Over felirat jelenik meg a pontszámmal és egy újrakezdési lehetőséggel.",
   "portfolio-weather": "Egyszerű időjárás alkalmazás, amely a Open-Meteo API-t használja az időjárási adatok lekéréséhez. Az alkalmazás célja a Redux és a Material UI használatának és integrációjának gyakorlása egy modern React alkalmazásban.",
   "portfolio-todoList": "Egy fullstack todo alkalmazás, amely lehetővé teszi a CRUD műveletek végrehajtását.  Backenden a Prisma ORM és MySql , Frontenden a ShadCN ui használata és integrációja volt a cél.    ",
-  "portfolio-habit": "Szokáskövető alkalmazás, amelyben a beállításokban nevet és témát lehet menteni. Szokás hozzáadásánál lehet címet, leírást, dátumot, szintet, ikont hozzáadni. Mellette lehet napi ismétlést és időtartamot is választani. ",
+  "portfolio-habit": "Szokáskövető alkalmazás, amelyben a beállításokban nevet és témát lehet elmenteni. Szokás hozzáadásánál lehet címet, leírást, dátumot, színt, ikont hozzáadni. Mellette lehet napi ismétlést és időtartamot is választani. ",
 
   "portfolio-memorygame-name": "Memória játék",
   "portfolio-quiz-name": "Kvíz játék",
