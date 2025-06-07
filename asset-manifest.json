@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.819d495c.css",
-    "main.js": "/portfolio/static/js/main.23efa271.js",
+    "main.css": "/portfolio/static/css/main.467038a1.css",
+    "main.js": "/portfolio/static/js/main.635df306.js",
     "static/media/blog-app.png": "/portfolio/static/media/blog-app.c8d150956d05e1cdb7fd.png",
     "static/media/me44.png": "/portfolio/static/media/me44.00b97300889b34432532.png",
     "static/media/movie-native.png": "/portfolio/static/media/movie-native.8300d61e0461e93c0714.png",
@@ -18,6 +18,7 @@
     "static/media/Celestial_bodies.jpg": "/portfolio/static/media/Celestial_bodies.c72f34d65e022b015bd9.jpg",
     "static/media/tetris.jpg": "/portfolio/static/media/tetris.81ffa02b940acf0dcd12.jpg",
     "static/media/flutter_favorit.jpg": "/portfolio/static/media/flutter_favorit.3aff209f500297616896.jpg",
+    "static/media/habit.jpg": "/portfolio/static/media/habit.8e56d6225cd4e89caffe.jpg",
     "static/media/angular-todo.jpg": "/portfolio/static/media/angular-todo.8f1bbffe131e1bd6b733.jpg",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.c8790f181c3c3fc16f86.png",
     "static/media/firebase.png": "/portfolio/static/media/firebase.778ea53972d35f486f43.png",
@@ -30,11 +31,11 @@
     "static/media/html.png": "/portfolio/static/media/html.0cf4b7f258dc9b9bce74.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.99e0b6fdb08924dd678c.png",
     "index.html": "/portfolio/index.html",
-    "main.819d495c.css.map": "/portfolio/static/css/main.819d495c.css.map",
-    "main.23efa271.js.map": "/portfolio/static/js/main.23efa271.js.map"
+    "main.467038a1.css.map": "/portfolio/static/css/main.467038a1.css.map",
+    "main.635df306.js.map": "/portfolio/static/js/main.635df306.js.map"
   },
   "entrypoints": [
-    "static/css/main.819d495c.css",
-    "static/js/main.23efa271.js"
+    "static/css/main.467038a1.css",
+    "static/js/main.635df306.js"
   ]
 }
