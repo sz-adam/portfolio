@@ -6,13 +6,13 @@
   "navbar-skills": "Készségek",
 
   "about-name": "Szabó Ádám",
-  "about-title": "Junior Frontend fejlesztő",
+  "about-title": "Junior Frontend/Mobil applikáció fejlesztő",
 
   "flag-language": "Nyelv",
   "flag-theme": "Téma",
 
-  "home-name": "Szia Szabó Ádámnak hívnak",
-  "home-junior": " és egy Junior FrontEnd fejlesztő vagyok",
+  "home-name": "Szia az én nevem Szabó Ádám",
+  "home-junior": "és egy Junior FrontEnd/Mobil applikáció fejlesztő vagyok",
   "home-about": "A programozás világa mindig is vonzott. Szakmai fejlődésem érdekében nemcsak autodidakta módon tanultam, hanem egy bootcampet is elvégeztem. Azóta megtaláltam azokat a területeket, amelyek különösen izgalmasnak és kihívásokkal telinek tűnnek számomra: Frontend és mobil applikáció fejlesztés. Szeretem az új technológiákat, és mindig nyitott vagyok az új lehetőségekre, amelyek további fejlődést jelentenek számomra.",
   "home-cv": "Önéletrajz",
   "home-portfolio": "Munkáim",
@@ -41,7 +41,7 @@
   "portfolio-flutterPokemon-name": "Pokemon",
   "portfolio-flutterWeather-name": "Időjárás",
   "portfolio-nativeMovie-name": "Film",
-  "portfolio-webshop-name": "Webarúház",
+  "portfolio-webshop-name": "Webaruház",
   "portfolio-flutterCelestical-name": "Égitestek",
   "portfolio-tetris-name": "Tetris játék",
   "portfolio-weather-name": "Időjárás",
