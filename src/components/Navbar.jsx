@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <AnimatedMotion animationName="navbarAnimatio">
-      <div className="flex justify-center p-5">
+      <div className="flex text-lg sm:text-xl justify-center p-5">
         <AnimatedMotion animationName="navbarItemAnimatio">
           <Link
             to="/"
